@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "timestamp_utc": "2026-11-14T08:06:03.057906+00:00",
+  "python_version": "3.14.7",
+  "unittest": {
+    "command": "python -m unittest discover -s tests -v",
+    "tests_run": 13,
+    "result": "PASS"
+  },
+  "example_rebuilds_without_manufacturer_files": [
+    "blink",
+    "steady",
+    "pwm"
+  ],
+  "pwm_levels_checked": 511,
+  "nano_build": {
+    "cli_version": "1.5.1",
+    "core": "arduino:avr@1.8.8",
+    "compile_fqbn": "arduino:avr:nano",
+    "upload_fqbn": "arduino:avr:nano:cpu=atmega328old",
+    "flash_bytes": 8162,
+    "sram_bytes": 950,
+    "result": "PASS"
+  },
+  "source_sha256": {
+    "firmware/nano_programmer/nano_programmer.ino": "4b506de8871efb622ac4f458995434375bce6744e8e8be806a7b5e00cf8b0282",
+    "host/program.py": "05acfbb89eca9528f6f7efdb5e257c72f91e0d939ec5afb295b6358b7a843f6e",
+    "host/assemble.py": "2d9a1c688015a00f5a6d9aaf66cbb8ec07ae3ba31b6d55c568ff837c9b7dcac1",
+    "host/session.py": "684214e1a0493c002e5b26f6ee5e8b3725c62348c6d594366eb33701e139021f",
+    "host/targets/ht66f002.py": "030e8de7d8940d4faa24370b9e30ace5c0575eb16a78b217b174576ecff124c1"
+  }
+}

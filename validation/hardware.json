@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "target": {
+    "model": "HT66F002",
+    "package": "SOP8"
+  },
+  "adapter": {
+    "board": "Arduino Nano / ATmega328P",
+    "firmware_identity": "MCULAB_HT66F002_V1",
+    "upload_readback_verification": true,
+    "firmware_source_sha256": "4b506de8871efb622ac4f458995434375bce6744e8e8be806a7b5e00cf8b0282"
+  },
+  "application": {
+    "path": "examples/ht66f002/led_pa1_dimmer.json",
+    "program_words": 96,
+    "binary_sha256": "b0aee3aa5345263dbaf1c3667514c95f559ad3852087a63b72d382f0eed17868"
+  },
+  "runs": [
+    {
+      "kind": "program_and_verify",
+      "timestamp_utc": "2026-11-14T07:54:35Z",
+      "success": true,
+      "flash_words_compared": 1024,
+      "flash_mismatches": 0,
+      "option_encoding_matches": true,
+      "trim_preserved": true,
+      "eeprom_preserved": true,
+      "runtime_edges": 6,
+      "sampled_edges": [
+        {
+          "level": 0,
+          "time_us": 57224
+        },
+        {
+          "level": 1,
+          "time_us": 65808
+        },
+        {
+          "level": 0,
+          "time_us": 65816
+        },
+        {
+          "level": 1,
+          "time_us": 74496
+        },
+        {
+          "level": 0,
+          "time_us": 74508
+        },
+        {
+          "level": 1,
+          "time_us": 75044
+        }
+      ]
+    },
+    {
+      "kind": "verify_only_after_new_adapter_reset",
+      "timestamp_utc": "2026-11-14T07:55:05Z",
+      "success": true,
+      "flash_words_compared": 1024,
+      "flash_mismatches": 0,
+      "option_encoding_matches": true,
+      "trim_preserved": true,
+      "eeprom_preserved": true,
+      "runtime_edges": 6,
+      "sampled_edges": [
+        {
+          "level": 0,
+          "time_us": 57156
+        },
+        {
+          "level": 1,
+          "time_us": 65744
+        },
+        {
+          "level": 0,
+          "time_us": 65752
+        },
+        {
+          "level": 1,
+          "time_us": 74432
+        },
+        {
+          "level": 0,
+          "time_us": 74444
+        },
+        {
+          "level": 1,
+          "time_us": 74980
+        }
+      ]
+    }
+  ],
+  "eeprom_read_checks": {
+    "bytes_compared": 32,
+    "dummy_clock_counts": [
+      512,
+      1018
+    ],
+    "full_reads_match": true,
+    "individual_reads_match_full_read_at_addresses": [
+      2,
+      8
+    ],
+    "target_memory_writes_in_read_checks": false
+  },
+  "final_state": "target running dimmer; clock and data released as inputs",
+  "measurement_limits": [
+    "Supply off/on was commanded through Nano D4; no independent voltage measurement.",
+    "Runtime edges were sampled by Nano digital input, not a calibrated logic analyzer.",
+    "No analog oscillator/voltage calibration or production endurance characterization."
+  ]
+}

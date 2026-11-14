@@ -1,0 +1,4937 @@
+{
+  "device": "HT66F002",
+  "method": "Assemble and behavior-check our HT66F002 examples using a project ISA subset.\n\nNo vendor SDK, include files, database, firmware image or DLL is required.\nThis limited assembler is not a complete Holtek development toolchain.\n",
+  "led_pa_bit": 1,
+  "behavior_check": "pwm",
+  "source_sha256": "90ef790cd23d75babf6a2fc3b33e69d5355accdf2c13eeba0d544063fcd8ccda",
+  "isa_definition_sha256": "030e8de7d8940d4faa24370b9e30ace5c0575eb16a78b217b174576ecff124c1",
+  "binary_sha256": "b0aee3aa5345263dbaf1c3667514c95f559ad3852087a63b72d382f0eed17868",
+  "program_words": 96,
+  "flash_words": [
+    10272,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    4008,
+    153,
+    3841,
+    139,
+    7950,
+    7951,
+    7953,
+    7970,
+    7974,
+    7956,
+    13461,
+    8276,
+    13333,
+    8276,
+    12309,
+    8003,
+    8249,
+    5827,
+    10288,
+    4095,
+    195,
+    8249,
+    6083,
+    10293,
+    10287,
+    3856,
+    194,
+    1859,
+    192,
+    4291,
+    10304,
+    10310,
+    3842,
+    148,
+    12309,
+    1,
+    6080,
+    10307,
+    4095,
+    579,
+    192,
+    4288,
+    10316,
+    10321,
+    7956,
+    13333,
+    1,
+    6080,
+    10318,
+    6082,
+    10299,
+    3,
+    3856,
+    193,
+    4095,
+    192,
+    1,
+    6080,
+    10328,
+    6081,
+    10326,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "programming_commands": [
+    "w 0 2820 0000 0000 0000",
+    "w 4 0000 0000 0000 0000",
+    "w 8 0000 0000 0000 0000",
+    "w c 0000 0000 0000 0000",
+    "w 10 0000 0000 0000 0000",
+    "w 14 0000 0000 0000 0000",
+    "w 18 0000 0000 0000 0000",
+    "w 1c 0000 0000 0000 0000",
+    "w 20 0fa8 0099 0f01 008b",
+    "w 24 1f0e 1f0f 1f11 1f22",
+    "w 28 1f26 1f14 3495 2054",
+    "w 2c 3415 2054 3015 1f43",
+    "w 30 2039 16c3 2830 0fff",
+    "w 34 00c3 2039 17c3 2835",
+    "w 38 282f 0f10 00c2 0743",
+    "w 3c 00c0 10c3 2840 2846",
+    "w 40 0f02 0094 3015 0001",
+    "w 44 17c0 2843 0fff 0243",
+    "w 48 00c0 10c0 284c 2851",
+    "w 4c 1f14 3415 0001 17c0",
+    "w 50 284e 17c2 283b 0003",
+    "w 54 0f10 00c1 0fff 00c0",
+    "w 58 0001 17c0 2858 17c1",
+    "w 5c 2856 0003 0000 0000"
+  ],
+  "simulated_led_edges": [
+    {
+      "cycles": 49389,
+      "level": 1,
+      "seconds_at_8mhz": 0.0246945
+    },
+    {
+      "cycles": 49400,
+      "level": 0,
+      "seconds_at_8mhz": 0.0247
+    },
+    {
+      "cycles": 50426,
+      "level": 1,
+      "seconds_at_8mhz": 0.025213
+    },
+    {
+      "cycles": 50437,
+      "level": 0,
+      "seconds_at_8mhz": 0.0252185
+    },
+    {
+      "cycles": 51463,
+      "level": 1,
+      "seconds_at_8mhz": 0.0257315
+    },
+    {
+      "cycles": 51474,
+      "level": 0,
+      "seconds_at_8mhz": 0.025737
+    },
+    {
+      "cycles": 52500,
+      "level": 1,
+      "seconds_at_8mhz": 0.02625
+    },
+    {
+      "cycles": 52511,
+      "level": 0,
+      "seconds_at_8mhz": 0.0262555
+    },
+    {
+      "cycles": 53537,
+      "level": 1,
+      "seconds_at_8mhz": 0.0267685
+    },
+    {
+      "cycles": 53548,
+      "level": 0,
+      "seconds_at_8mhz": 0.026774
+    },
+    {
+      "cycles": 54574,
+      "level": 1,
+      "seconds_at_8mhz": 0.027287
+    },
+    {
+      "cycles": 54585,
+      "level": 0,
+      "seconds_at_8mhz": 0.0272925
+    },
+    {
+      "cycles": 55611,
+      "level": 1,
+      "seconds_at_8mhz": 0.0278055
+    },
+    {
+      "cycles": 55622,
+      "level": 0,
+      "seconds_at_8mhz": 0.027811
+    },
+    {
+      "cycles": 56648,
+      "level": 1,
+      "seconds_at_8mhz": 0.028324
+    },
+    {
+      "cycles": 56659,
+      "level": 0,
+      "seconds_at_8mhz": 0.0283295
+    },
+    {
+      "cycles": 57685,
+      "level": 1,
+      "seconds_at_8mhz": 0.0288425
+    },
+    {
+      "cycles": 57696,
+      "level": 0,
+      "seconds_at_8mhz": 0.028848
+    },
+    {
+      "cycles": 58722,
+      "level": 1,
+      "seconds_at_8mhz": 0.029361
+    },
+    {
+      "cycles": 58733,
+      "level": 0,
+      "seconds_at_8mhz": 0.0293665
+    },
+    {
+      "cycles": 59759,
+      "level": 1,
+      "seconds_at_8mhz": 0.0298795
+    },
+    {
+      "cycles": 59770,
+      "level": 0,
+      "seconds_at_8mhz": 0.029885
+    },
+    {
+      "cycles": 60796,
+      "level": 1,
+      "seconds_at_8mhz": 0.030398
+    },
+    {
+      "cycles": 60807,
+      "level": 0,
+      "seconds_at_8mhz": 0.0304035
+    },
+    {
+      "cycles": 61833,
+      "level": 1,
+      "seconds_at_8mhz": 0.0309165
+    },
+    {
+      "cycles": 61844,
+      "level": 0,
+      "seconds_at_8mhz": 0.030922
+    },
+    {
+      "cycles": 62870,
+      "level": 1,
+      "seconds_at_8mhz": 0.031435
+    },
+    {
+      "cycles": 62881,
+      "level": 0,
+      "seconds_at_8mhz": 0.0314405
+    },
+    {
+      "cycles": 63907,
+      "level": 1,
+      "seconds_at_8mhz": 0.0319535
+    },
+    {
+      "cycles": 63918,
+      "level": 0,
+      "seconds_at_8mhz": 0.031959
+    },
+    {
+      "cycles": 64944,
+      "level": 1,
+      "seconds_at_8mhz": 0.032472
+    },
+    {
+      "cycles": 64955,
+      "level": 0,
+      "seconds_at_8mhz": 0.0324775
+    }
+  ],
+  "cycles_per_half_period": [],
+  "simulated_open_drain_pa0": [
+    {
+      "cycles": 16403,
+      "level": 0
+    },
+    {
+      "cycles": 32793,
+      "level": 1
+    },
+    {
+      "cycles": 32812,
+      "level": 0
+    },
+    {
+      "cycles": 49390,
+      "level": 1
+    },
+    {
+      "cycles": 49401,
+      "level": 0
+    },
+    {
+      "cycles": 50427,
+      "level": 1
+    },
+    {
+      "cycles": 50438,
+      "level": 0
+    },
+    {
+      "cycles": 51464,
+      "level": 1
+    },
+    {
+      "cycles": 51475,
+      "level": 0
+    },
+    {
+      "cycles": 52501,
+      "level": 1
+    },
+    {
+      "cycles": 52512,
+      "level": 0
+    },
+    {
+      "cycles": 53538,
+      "level": 1
+    },
+    {
+      "cycles": 53549,
+      "level": 0
+    },
+    {
+      "cycles": 54575,
+      "level": 1
+    },
+    {
+      "cycles": 54586,
+      "level": 0
+    },
+    {
+      "cycles": 55612,
+      "level": 1
+    },
+    {
+      "cycles": 55623,
+      "level": 0
+    },
+    {
+      "cycles": 56649,
+      "level": 1
+    },
+    {
+      "cycles": 56660,
+      "level": 0
+    },
+    {
+      "cycles": 57686,
+      "level": 1
+    },
+    {
+      "cycles": 57697,
+      "level": 0
+    },
+    {
+      "cycles": 58723,
+      "level": 1
+    },
+    {
+      "cycles": 58734,
+      "level": 0
+    },
+    {
+      "cycles": 59760,
+      "level": 1
+    },
+    {
+      "cycles": 59771,
+      "level": 0
+    },
+    {
+      "cycles": 60797,
+      "level": 1
+    },
+    {
+      "cycles": 60808,
+      "level": 0
+    },
+    {
+      "cycles": 61834,
+      "level": 1
+    },
+    {
+      "cycles": 61845,
+      "level": 0
+    },
+    {
+      "cycles": 62871,
+      "level": 1
+    },
+    {
+      "cycles": 62882,
+      "level": 0
+    },
+    {
+      "cycles": 63908,
+      "level": 1
+    }
+  ],
+  "pwm_level_samples": [
+    {
+      "duty": 0,
+      "cycles": 49376,
+      "on_cycles": 0,
+      "on_percent": 0.0,
+      "end_cycles": 49376
+    },
+    {
+      "duty": 1,
+      "cycles": 16600,
+      "on_cycles": 176,
+      "on_percent": 1.0602409638554218,
+      "end_cycles": 65976
+    },
+    {
+      "duty": 2,
+      "cycles": 16600,
+      "on_cycles": 240,
+      "on_percent": 1.4457831325301205,
+      "end_cycles": 82576
+    },
+    {
+      "duty": 3,
+      "cycles": 16600,
+      "on_cycles": 304,
+      "on_percent": 1.8313253012048192,
+      "end_cycles": 99176
+    },
+    {
+      "duty": 4,
+      "cycles": 16600,
+      "on_cycles": 368,
+      "on_percent": 2.216867469879518,
+      "end_cycles": 115776
+    },
+    {
+      "duty": 5,
+      "cycles": 16600,
+      "on_cycles": 432,
+      "on_percent": 2.602409638554217,
+      "end_cycles": 132376
+    },
+    {
+      "duty": 6,
+      "cycles": 16600,
+      "on_cycles": 496,
+      "on_percent": 2.9879518072289155,
+      "end_cycles": 148976
+    },
+    {
+      "duty": 7,
+      "cycles": 16600,
+      "on_cycles": 560,
+      "on_percent": 3.3734939759036147,
+      "end_cycles": 165576
+    },
+    {
+      "duty": 8,
+      "cycles": 16600,
+      "on_cycles": 624,
+      "on_percent": 3.7590361445783134,
+      "end_cycles": 182176
+    },
+    {
+      "duty": 9,
+      "cycles": 16600,
+      "on_cycles": 688,
+      "on_percent": 4.144578313253012,
+      "end_cycles": 198776
+    },
+    {
+      "duty": 10,
+      "cycles": 16600,
+      "on_cycles": 752,
+      "on_percent": 4.530120481927711,
+      "end_cycles": 215376
+    },
+    {
+      "duty": 11,
+      "cycles": 16600,
+      "on_cycles": 816,
+      "on_percent": 4.9156626506024095,
+      "end_cycles": 231976
+    },
+    {
+      "duty": 12,
+      "cycles": 16600,
+      "on_cycles": 880,
+      "on_percent": 5.301204819277109,
+      "end_cycles": 248576
+    },
+    {
+      "duty": 13,
+      "cycles": 16600,
+      "on_cycles": 944,
+      "on_percent": 5.686746987951807,
+      "end_cycles": 265176
+    },
+    {
+      "duty": 14,
+      "cycles": 16600,
+      "on_cycles": 1008,
+      "on_percent": 6.072289156626506,
+      "end_cycles": 281776
+    },
+    {
+      "duty": 15,
+      "cycles": 16600,
+      "on_cycles": 1072,
+      "on_percent": 6.457831325301205,
+      "end_cycles": 298376
+    },
+    {
+      "duty": 16,
+      "cycles": 16600,
+      "on_cycles": 1136,
+      "on_percent": 6.843373493975903,
+      "end_cycles": 314976
+    },
+    {
+      "duty": 17,
+      "cycles": 16600,
+      "on_cycles": 1200,
+      "on_percent": 7.228915662650603,
+      "end_cycles": 331576
+    },
+    {
+      "duty": 18,
+      "cycles": 16600,
+      "on_cycles": 1264,
+      "on_percent": 7.614457831325301,
+      "end_cycles": 348176
+    },
+    {
+      "duty": 19,
+      "cycles": 16600,
+      "on_cycles": 1328,
+      "on_percent": 8.0,
+      "end_cycles": 364776
+    },
+    {
+      "duty": 20,
+      "cycles": 16600,
+      "on_cycles": 1392,
+      "on_percent": 8.385542168674698,
+      "end_cycles": 381376
+    },
+    {
+      "duty": 21,
+      "cycles": 16600,
+      "on_cycles": 1456,
+      "on_percent": 8.771084337349398,
+      "end_cycles": 397976
+    },
+    {
+      "duty": 22,
+      "cycles": 16600,
+      "on_cycles": 1520,
+      "on_percent": 9.156626506024097,
+      "end_cycles": 414576
+    },
+    {
+      "duty": 23,
+      "cycles": 16600,
+      "on_cycles": 1584,
+      "on_percent": 9.542168674698795,
+      "end_cycles": 431176
+    },
+    {
+      "duty": 24,
+      "cycles": 16600,
+      "on_cycles": 1648,
+      "on_percent": 9.927710843373495,
+      "end_cycles": 447776
+    },
+    {
+      "duty": 25,
+      "cycles": 16600,
+      "on_cycles": 1712,
+      "on_percent": 10.313253012048193,
+      "end_cycles": 464376
+    },
+    {
+      "duty": 26,
+      "cycles": 16600,
+      "on_cycles": 1776,
+      "on_percent": 10.698795180722891,
+      "end_cycles": 480976
+    },
+    {
+      "duty": 27,
+      "cycles": 16600,
+      "on_cycles": 1840,
+      "on_percent": 11.08433734939759,
+      "end_cycles": 497576
+    },
+    {
+      "duty": 28,
+      "cycles": 16600,
+      "on_cycles": 1904,
+      "on_percent": 11.46987951807229,
+      "end_cycles": 514176
+    },
+    {
+      "duty": 29,
+      "cycles": 16600,
+      "on_cycles": 1968,
+      "on_percent": 11.855421686746988,
+      "end_cycles": 530776
+    },
+    {
+      "duty": 30,
+      "cycles": 16600,
+      "on_cycles": 2032,
+      "on_percent": 12.240963855421686,
+      "end_cycles": 547376
+    },
+    {
+      "duty": 31,
+      "cycles": 16600,
+      "on_cycles": 2096,
+      "on_percent": 12.626506024096386,
+      "end_cycles": 563976
+    },
+    {
+      "duty": 32,
+      "cycles": 16600,
+      "on_cycles": 2160,
+      "on_percent": 13.012048192771084,
+      "end_cycles": 580576
+    },
+    {
+      "duty": 33,
+      "cycles": 16600,
+      "on_cycles": 2224,
+      "on_percent": 13.397590361445783,
+      "end_cycles": 597176
+    },
+    {
+      "duty": 34,
+      "cycles": 16600,
+      "on_cycles": 2288,
+      "on_percent": 13.783132530120483,
+      "end_cycles": 613776
+    },
+    {
+      "duty": 35,
+      "cycles": 16600,
+      "on_cycles": 2352,
+      "on_percent": 14.168674698795181,
+      "end_cycles": 630376
+    },
+    {
+      "duty": 36,
+      "cycles": 16600,
+      "on_cycles": 2416,
+      "on_percent": 14.55421686746988,
+      "end_cycles": 646976
+    },
+    {
+      "duty": 37,
+      "cycles": 16600,
+      "on_cycles": 2480,
+      "on_percent": 14.939759036144578,
+      "end_cycles": 663576
+    },
+    {
+      "duty": 38,
+      "cycles": 16600,
+      "on_cycles": 2544,
+      "on_percent": 15.325301204819278,
+      "end_cycles": 680176
+    },
+    {
+      "duty": 39,
+      "cycles": 16600,
+      "on_cycles": 2608,
+      "on_percent": 15.710843373493976,
+      "end_cycles": 696776
+    },
+    {
+      "duty": 40,
+      "cycles": 16600,
+      "on_cycles": 2672,
+      "on_percent": 16.096385542168676,
+      "end_cycles": 713376
+    },
+    {
+      "duty": 41,
+      "cycles": 16600,
+      "on_cycles": 2736,
+      "on_percent": 16.481927710843372,
+      "end_cycles": 729976
+    },
+    {
+      "duty": 42,
+      "cycles": 16600,
+      "on_cycles": 2800,
+      "on_percent": 16.867469879518072,
+      "end_cycles": 746576
+    },
+    {
+      "duty": 43,
+      "cycles": 16600,
+      "on_cycles": 2864,
+      "on_percent": 17.253012048192772,
+      "end_cycles": 763176
+    },
+    {
+      "duty": 44,
+      "cycles": 16600,
+      "on_cycles": 2928,
+      "on_percent": 17.63855421686747,
+      "end_cycles": 779776
+    },
+    {
+      "duty": 45,
+      "cycles": 16600,
+      "on_cycles": 2992,
+      "on_percent": 18.02409638554217,
+      "end_cycles": 796376
+    },
+    {
+      "duty": 46,
+      "cycles": 16600,
+      "on_cycles": 3056,
+      "on_percent": 18.40963855421687,
+      "end_cycles": 812976
+    },
+    {
+      "duty": 47,
+      "cycles": 16600,
+      "on_cycles": 3120,
+      "on_percent": 18.795180722891565,
+      "end_cycles": 829576
+    },
+    {
+      "duty": 48,
+      "cycles": 16600,
+      "on_cycles": 3184,
+      "on_percent": 19.180722891566266,
+      "end_cycles": 846176
+    },
+    {
+      "duty": 49,
+      "cycles": 16600,
+      "on_cycles": 3248,
+      "on_percent": 19.566265060240966,
+      "end_cycles": 862776
+    },
+    {
+      "duty": 50,
+      "cycles": 16600,
+      "on_cycles": 3312,
+      "on_percent": 19.951807228915662,
+      "end_cycles": 879376
+    },
+    {
+      "duty": 51,
+      "cycles": 16600,
+      "on_cycles": 3376,
+      "on_percent": 20.337349397590362,
+      "end_cycles": 895976
+    },
+    {
+      "duty": 52,
+      "cycles": 16600,
+      "on_cycles": 3440,
+      "on_percent": 20.72289156626506,
+      "end_cycles": 912576
+    },
+    {
+      "duty": 53,
+      "cycles": 16600,
+      "on_cycles": 3504,
+      "on_percent": 21.10843373493976,
+      "end_cycles": 929176
+    },
+    {
+      "duty": 54,
+      "cycles": 16600,
+      "on_cycles": 3568,
+      "on_percent": 21.49397590361446,
+      "end_cycles": 945776
+    },
+    {
+      "duty": 55,
+      "cycles": 16600,
+      "on_cycles": 3632,
+      "on_percent": 21.879518072289155,
+      "end_cycles": 962376
+    },
+    {
+      "duty": 56,
+      "cycles": 16600,
+      "on_cycles": 3696,
+      "on_percent": 22.265060240963855,
+      "end_cycles": 978976
+    },
+    {
+      "duty": 57,
+      "cycles": 16600,
+      "on_cycles": 3760,
+      "on_percent": 22.650602409638555,
+      "end_cycles": 995576
+    },
+    {
+      "duty": 58,
+      "cycles": 16600,
+      "on_cycles": 3824,
+      "on_percent": 23.03614457831325,
+      "end_cycles": 1012176
+    },
+    {
+      "duty": 59,
+      "cycles": 16600,
+      "on_cycles": 3888,
+      "on_percent": 23.42168674698795,
+      "end_cycles": 1028776
+    },
+    {
+      "duty": 60,
+      "cycles": 16600,
+      "on_cycles": 3952,
+      "on_percent": 23.80722891566265,
+      "end_cycles": 1045376
+    },
+    {
+      "duty": 61,
+      "cycles": 16600,
+      "on_cycles": 4016,
+      "on_percent": 24.19277108433735,
+      "end_cycles": 1061976
+    },
+    {
+      "duty": 62,
+      "cycles": 16600,
+      "on_cycles": 4080,
+      "on_percent": 24.57831325301205,
+      "end_cycles": 1078576
+    },
+    {
+      "duty": 63,
+      "cycles": 16600,
+      "on_cycles": 4144,
+      "on_percent": 24.96385542168675,
+      "end_cycles": 1095176
+    },
+    {
+      "duty": 64,
+      "cycles": 16600,
+      "on_cycles": 4208,
+      "on_percent": 25.349397590361445,
+      "end_cycles": 1111776
+    },
+    {
+      "duty": 65,
+      "cycles": 16600,
+      "on_cycles": 4272,
+      "on_percent": 25.734939759036145,
+      "end_cycles": 1128376
+    },
+    {
+      "duty": 66,
+      "cycles": 16600,
+      "on_cycles": 4336,
+      "on_percent": 26.120481927710845,
+      "end_cycles": 1144976
+    },
+    {
+      "duty": 67,
+      "cycles": 16600,
+      "on_cycles": 4400,
+      "on_percent": 26.50602409638554,
+      "end_cycles": 1161576
+    },
+    {
+      "duty": 68,
+      "cycles": 16600,
+      "on_cycles": 4464,
+      "on_percent": 26.89156626506024,
+      "end_cycles": 1178176
+    },
+    {
+      "duty": 69,
+      "cycles": 16600,
+      "on_cycles": 4528,
+      "on_percent": 27.27710843373494,
+      "end_cycles": 1194776
+    },
+    {
+      "duty": 70,
+      "cycles": 16600,
+      "on_cycles": 4592,
+      "on_percent": 27.662650602409638,
+      "end_cycles": 1211376
+    },
+    {
+      "duty": 71,
+      "cycles": 16600,
+      "on_cycles": 4656,
+      "on_percent": 28.048192771084338,
+      "end_cycles": 1227976
+    },
+    {
+      "duty": 72,
+      "cycles": 16600,
+      "on_cycles": 4720,
+      "on_percent": 28.433734939759034,
+      "end_cycles": 1244576
+    },
+    {
+      "duty": 73,
+      "cycles": 16600,
+      "on_cycles": 4784,
+      "on_percent": 28.819277108433734,
+      "end_cycles": 1261176
+    },
+    {
+      "duty": 74,
+      "cycles": 16600,
+      "on_cycles": 4848,
+      "on_percent": 29.204819277108435,
+      "end_cycles": 1277776
+    },
+    {
+      "duty": 75,
+      "cycles": 16600,
+      "on_cycles": 4912,
+      "on_percent": 29.59036144578313,
+      "end_cycles": 1294376
+    },
+    {
+      "duty": 76,
+      "cycles": 16600,
+      "on_cycles": 4976,
+      "on_percent": 29.97590361445783,
+      "end_cycles": 1310976
+    },
+    {
+      "duty": 77,
+      "cycles": 16600,
+      "on_cycles": 5040,
+      "on_percent": 30.36144578313253,
+      "end_cycles": 1327576
+    },
+    {
+      "duty": 78,
+      "cycles": 16600,
+      "on_cycles": 5104,
+      "on_percent": 30.746987951807228,
+      "end_cycles": 1344176
+    },
+    {
+      "duty": 79,
+      "cycles": 16600,
+      "on_cycles": 5168,
+      "on_percent": 31.132530120481928,
+      "end_cycles": 1360776
+    },
+    {
+      "duty": 80,
+      "cycles": 16600,
+      "on_cycles": 5232,
+      "on_percent": 31.518072289156628,
+      "end_cycles": 1377376
+    },
+    {
+      "duty": 81,
+      "cycles": 16600,
+      "on_cycles": 5296,
+      "on_percent": 31.903614457831324,
+      "end_cycles": 1393976
+    },
+    {
+      "duty": 82,
+      "cycles": 16600,
+      "on_cycles": 5360,
+      "on_percent": 32.28915662650602,
+      "end_cycles": 1410576
+    },
+    {
+      "duty": 83,
+      "cycles": 16600,
+      "on_cycles": 5424,
+      "on_percent": 32.674698795180724,
+      "end_cycles": 1427176
+    },
+    {
+      "duty": 84,
+      "cycles": 16600,
+      "on_cycles": 5488,
+      "on_percent": 33.06024096385542,
+      "end_cycles": 1443776
+    },
+    {
+      "duty": 85,
+      "cycles": 16600,
+      "on_cycles": 5552,
+      "on_percent": 33.44578313253012,
+      "end_cycles": 1460376
+    },
+    {
+      "duty": 86,
+      "cycles": 16600,
+      "on_cycles": 5616,
+      "on_percent": 33.83132530120482,
+      "end_cycles": 1476976
+    },
+    {
+      "duty": 87,
+      "cycles": 16600,
+      "on_cycles": 5680,
+      "on_percent": 34.21686746987952,
+      "end_cycles": 1493576
+    },
+    {
+      "duty": 88,
+      "cycles": 16600,
+      "on_cycles": 5744,
+      "on_percent": 34.602409638554214,
+      "end_cycles": 1510176
+    },
+    {
+      "duty": 89,
+      "cycles": 16600,
+      "on_cycles": 5808,
+      "on_percent": 34.98795180722892,
+      "end_cycles": 1526776
+    },
+    {
+      "duty": 90,
+      "cycles": 16600,
+      "on_cycles": 5872,
+      "on_percent": 35.373493975903614,
+      "end_cycles": 1543376
+    },
+    {
+      "duty": 91,
+      "cycles": 16600,
+      "on_cycles": 5936,
+      "on_percent": 35.75903614457831,
+      "end_cycles": 1559976
+    },
+    {
+      "duty": 92,
+      "cycles": 16600,
+      "on_cycles": 6000,
+      "on_percent": 36.144578313253014,
+      "end_cycles": 1576576
+    },
+    {
+      "duty": 93,
+      "cycles": 16600,
+      "on_cycles": 6064,
+      "on_percent": 36.53012048192771,
+      "end_cycles": 1593176
+    },
+    {
+      "duty": 94,
+      "cycles": 16600,
+      "on_cycles": 6128,
+      "on_percent": 36.91566265060241,
+      "end_cycles": 1609776
+    },
+    {
+      "duty": 95,
+      "cycles": 16600,
+      "on_cycles": 6192,
+      "on_percent": 37.30120481927711,
+      "end_cycles": 1626376
+    },
+    {
+      "duty": 96,
+      "cycles": 16600,
+      "on_cycles": 6256,
+      "on_percent": 37.68674698795181,
+      "end_cycles": 1642976
+    },
+    {
+      "duty": 97,
+      "cycles": 16600,
+      "on_cycles": 6320,
+      "on_percent": 38.0722891566265,
+      "end_cycles": 1659576
+    },
+    {
+      "duty": 98,
+      "cycles": 16600,
+      "on_cycles": 6384,
+      "on_percent": 38.45783132530121,
+      "end_cycles": 1676176
+    },
+    {
+      "duty": 99,
+      "cycles": 16600,
+      "on_cycles": 6448,
+      "on_percent": 38.8433734939759,
+      "end_cycles": 1692776
+    },
+    {
+      "duty": 100,
+      "cycles": 16600,
+      "on_cycles": 6512,
+      "on_percent": 39.2289156626506,
+      "end_cycles": 1709376
+    },
+    {
+      "duty": 101,
+      "cycles": 16600,
+      "on_cycles": 6576,
+      "on_percent": 39.6144578313253,
+      "end_cycles": 1725976
+    },
+    {
+      "duty": 102,
+      "cycles": 16600,
+      "on_cycles": 6640,
+      "on_percent": 40.0,
+      "end_cycles": 1742576
+    },
+    {
+      "duty": 103,
+      "cycles": 16600,
+      "on_cycles": 6704,
+      "on_percent": 40.3855421686747,
+      "end_cycles": 1759176
+    },
+    {
+      "duty": 104,
+      "cycles": 16600,
+      "on_cycles": 6768,
+      "on_percent": 40.7710843373494,
+      "end_cycles": 1775776
+    },
+    {
+      "duty": 105,
+      "cycles": 16600,
+      "on_cycles": 6832,
+      "on_percent": 41.1566265060241,
+      "end_cycles": 1792376
+    },
+    {
+      "duty": 106,
+      "cycles": 16600,
+      "on_cycles": 6896,
+      "on_percent": 41.54216867469879,
+      "end_cycles": 1808976
+    },
+    {
+      "duty": 107,
+      "cycles": 16600,
+      "on_cycles": 6960,
+      "on_percent": 41.9277108433735,
+      "end_cycles": 1825576
+    },
+    {
+      "duty": 108,
+      "cycles": 16600,
+      "on_cycles": 7024,
+      "on_percent": 42.31325301204819,
+      "end_cycles": 1842176
+    },
+    {
+      "duty": 109,
+      "cycles": 16600,
+      "on_cycles": 7088,
+      "on_percent": 42.69879518072289,
+      "end_cycles": 1858776
+    },
+    {
+      "duty": 110,
+      "cycles": 16600,
+      "on_cycles": 7152,
+      "on_percent": 43.08433734939759,
+      "end_cycles": 1875376
+    },
+    {
+      "duty": 111,
+      "cycles": 16600,
+      "on_cycles": 7216,
+      "on_percent": 43.46987951807229,
+      "end_cycles": 1891976
+    },
+    {
+      "duty": 112,
+      "cycles": 16600,
+      "on_cycles": 7280,
+      "on_percent": 43.855421686746986,
+      "end_cycles": 1908576
+    },
+    {
+      "duty": 113,
+      "cycles": 16600,
+      "on_cycles": 7344,
+      "on_percent": 44.24096385542169,
+      "end_cycles": 1925176
+    },
+    {
+      "duty": 114,
+      "cycles": 16600,
+      "on_cycles": 7408,
+      "on_percent": 44.626506024096386,
+      "end_cycles": 1941776
+    },
+    {
+      "duty": 115,
+      "cycles": 16600,
+      "on_cycles": 7472,
+      "on_percent": 45.01204819277108,
+      "end_cycles": 1958376
+    },
+    {
+      "duty": 116,
+      "cycles": 16600,
+      "on_cycles": 7536,
+      "on_percent": 45.397590361445786,
+      "end_cycles": 1974976
+    },
+    {
+      "duty": 117,
+      "cycles": 16600,
+      "on_cycles": 7600,
+      "on_percent": 45.78313253012048,
+      "end_cycles": 1991576
+    },
+    {
+      "duty": 118,
+      "cycles": 16600,
+      "on_cycles": 7664,
+      "on_percent": 46.16867469879518,
+      "end_cycles": 2008176
+    },
+    {
+      "duty": 119,
+      "cycles": 16600,
+      "on_cycles": 7728,
+      "on_percent": 46.55421686746988,
+      "end_cycles": 2024776
+    },
+    {
+      "duty": 120,
+      "cycles": 16600,
+      "on_cycles": 7792,
+      "on_percent": 46.93975903614458,
+      "end_cycles": 2041376
+    },
+    {
+      "duty": 121,
+      "cycles": 16600,
+      "on_cycles": 7856,
+      "on_percent": 47.325301204819276,
+      "end_cycles": 2057976
+    },
+    {
+      "duty": 122,
+      "cycles": 16600,
+      "on_cycles": 7920,
+      "on_percent": 47.71084337349398,
+      "end_cycles": 2074576
+    },
+    {
+      "duty": 123,
+      "cycles": 16600,
+      "on_cycles": 7984,
+      "on_percent": 48.096385542168676,
+      "end_cycles": 2091176
+    },
+    {
+      "duty": 124,
+      "cycles": 16600,
+      "on_cycles": 8048,
+      "on_percent": 48.48192771084337,
+      "end_cycles": 2107776
+    },
+    {
+      "duty": 125,
+      "cycles": 16600,
+      "on_cycles": 8112,
+      "on_percent": 48.86746987951807,
+      "end_cycles": 2124376
+    },
+    {
+      "duty": 126,
+      "cycles": 16600,
+      "on_cycles": 8176,
+      "on_percent": 49.25301204819277,
+      "end_cycles": 2140976
+    },
+    {
+      "duty": 127,
+      "cycles": 16600,
+      "on_cycles": 8240,
+      "on_percent": 49.63855421686747,
+      "end_cycles": 2157576
+    },
+    {
+      "duty": 128,
+      "cycles": 16600,
+      "on_cycles": 8304,
+      "on_percent": 50.024096385542165,
+      "end_cycles": 2174176
+    },
+    {
+      "duty": 129,
+      "cycles": 16600,
+      "on_cycles": 8368,
+      "on_percent": 50.40963855421687,
+      "end_cycles": 2190776
+    },
+    {
+      "duty": 130,
+      "cycles": 16600,
+      "on_cycles": 8432,
+      "on_percent": 50.795180722891565,
+      "end_cycles": 2207376
+    },
+    {
+      "duty": 131,
+      "cycles": 16600,
+      "on_cycles": 8496,
+      "on_percent": 51.18072289156626,
+      "end_cycles": 2223976
+    },
+    {
+      "duty": 132,
+      "cycles": 16600,
+      "on_cycles": 8560,
+      "on_percent": 51.566265060240966,
+      "end_cycles": 2240576
+    },
+    {
+      "duty": 133,
+      "cycles": 16600,
+      "on_cycles": 8624,
+      "on_percent": 51.95180722891566,
+      "end_cycles": 2257176
+    },
+    {
+      "duty": 134,
+      "cycles": 16600,
+      "on_cycles": 8688,
+      "on_percent": 52.33734939759036,
+      "end_cycles": 2273776
+    },
+    {
+      "duty": 135,
+      "cycles": 16600,
+      "on_cycles": 8752,
+      "on_percent": 52.72289156626506,
+      "end_cycles": 2290376
+    },
+    {
+      "duty": 136,
+      "cycles": 16600,
+      "on_cycles": 8816,
+      "on_percent": 53.10843373493976,
+      "end_cycles": 2306976
+    },
+    {
+      "duty": 137,
+      "cycles": 16600,
+      "on_cycles": 8880,
+      "on_percent": 53.493975903614455,
+      "end_cycles": 2323576
+    },
+    {
+      "duty": 138,
+      "cycles": 16600,
+      "on_cycles": 8944,
+      "on_percent": 53.87951807228916,
+      "end_cycles": 2340176
+    },
+    {
+      "duty": 139,
+      "cycles": 16600,
+      "on_cycles": 9008,
+      "on_percent": 54.265060240963855,
+      "end_cycles": 2356776
+    },
+    {
+      "duty": 140,
+      "cycles": 16600,
+      "on_cycles": 9072,
+      "on_percent": 54.65060240963855,
+      "end_cycles": 2373376
+    },
+    {
+      "duty": 141,
+      "cycles": 16600,
+      "on_cycles": 9136,
+      "on_percent": 55.036144578313255,
+      "end_cycles": 2389976
+    },
+    {
+      "duty": 142,
+      "cycles": 16600,
+      "on_cycles": 9200,
+      "on_percent": 55.42168674698795,
+      "end_cycles": 2406576
+    },
+    {
+      "duty": 143,
+      "cycles": 16600,
+      "on_cycles": 9264,
+      "on_percent": 55.80722891566265,
+      "end_cycles": 2423176
+    },
+    {
+      "duty": 144,
+      "cycles": 16600,
+      "on_cycles": 9328,
+      "on_percent": 56.19277108433735,
+      "end_cycles": 2439776
+    },
+    {
+      "duty": 145,
+      "cycles": 16600,
+      "on_cycles": 9392,
+      "on_percent": 56.57831325301205,
+      "end_cycles": 2456376
+    },
+    {
+      "duty": 146,
+      "cycles": 16600,
+      "on_cycles": 9456,
+      "on_percent": 56.963855421686745,
+      "end_cycles": 2472976
+    },
+    {
+      "duty": 147,
+      "cycles": 16600,
+      "on_cycles": 9520,
+      "on_percent": 57.34939759036145,
+      "end_cycles": 2489576
+    },
+    {
+      "duty": 148,
+      "cycles": 16600,
+      "on_cycles": 9584,
+      "on_percent": 57.734939759036145,
+      "end_cycles": 2506176
+    },
+    {
+      "duty": 149,
+      "cycles": 16600,
+      "on_cycles": 9648,
+      "on_percent": 58.12048192771084,
+      "end_cycles": 2522776
+    },
+    {
+      "duty": 150,
+      "cycles": 16600,
+      "on_cycles": 9712,
+      "on_percent": 58.506024096385545,
+      "end_cycles": 2539376
+    },
+    {
+      "duty": 151,
+      "cycles": 16600,
+      "on_cycles": 9776,
+      "on_percent": 58.89156626506024,
+      "end_cycles": 2555976
+    },
+    {
+      "duty": 152,
+      "cycles": 16600,
+      "on_cycles": 9840,
+      "on_percent": 59.27710843373494,
+      "end_cycles": 2572576
+    },
+    {
+      "duty": 153,
+      "cycles": 16600,
+      "on_cycles": 9904,
+      "on_percent": 59.66265060240964,
+      "end_cycles": 2589176
+    },
+    {
+      "duty": 154,
+      "cycles": 16600,
+      "on_cycles": 9968,
+      "on_percent": 60.04819277108434,
+      "end_cycles": 2605776
+    },
+    {
+      "duty": 155,
+      "cycles": 16600,
+      "on_cycles": 10032,
+      "on_percent": 60.433734939759034,
+      "end_cycles": 2622376
+    },
+    {
+      "duty": 156,
+      "cycles": 16600,
+      "on_cycles": 10096,
+      "on_percent": 60.81927710843374,
+      "end_cycles": 2638976
+    },
+    {
+      "duty": 157,
+      "cycles": 16600,
+      "on_cycles": 10160,
+      "on_percent": 61.204819277108435,
+      "end_cycles": 2655576
+    },
+    {
+      "duty": 158,
+      "cycles": 16600,
+      "on_cycles": 10224,
+      "on_percent": 61.59036144578313,
+      "end_cycles": 2672176
+    },
+    {
+      "duty": 159,
+      "cycles": 16600,
+      "on_cycles": 10288,
+      "on_percent": 61.975903614457835,
+      "end_cycles": 2688776
+    },
+    {
+      "duty": 160,
+      "cycles": 16600,
+      "on_cycles": 10352,
+      "on_percent": 62.36144578313253,
+      "end_cycles": 2705376
+    },
+    {
+      "duty": 161,
+      "cycles": 16600,
+      "on_cycles": 10416,
+      "on_percent": 62.74698795180723,
+      "end_cycles": 2721976
+    },
+    {
+      "duty": 162,
+      "cycles": 16600,
+      "on_cycles": 10480,
+      "on_percent": 63.13253012048193,
+      "end_cycles": 2738576
+    },
+    {
+      "duty": 163,
+      "cycles": 16600,
+      "on_cycles": 10544,
+      "on_percent": 63.51807228915663,
+      "end_cycles": 2755176
+    },
+    {
+      "duty": 164,
+      "cycles": 16600,
+      "on_cycles": 10608,
+      "on_percent": 63.903614457831324,
+      "end_cycles": 2771776
+    },
+    {
+      "duty": 165,
+      "cycles": 16600,
+      "on_cycles": 10672,
+      "on_percent": 64.28915662650603,
+      "end_cycles": 2788376
+    },
+    {
+      "duty": 166,
+      "cycles": 16600,
+      "on_cycles": 10736,
+      "on_percent": 64.67469879518072,
+      "end_cycles": 2804976
+    },
+    {
+      "duty": 167,
+      "cycles": 16600,
+      "on_cycles": 10800,
+      "on_percent": 65.06024096385542,
+      "end_cycles": 2821576
+    },
+    {
+      "duty": 168,
+      "cycles": 16600,
+      "on_cycles": 10864,
+      "on_percent": 65.44578313253012,
+      "end_cycles": 2838176
+    },
+    {
+      "duty": 169,
+      "cycles": 16600,
+      "on_cycles": 10928,
+      "on_percent": 65.83132530120481,
+      "end_cycles": 2854776
+    },
+    {
+      "duty": 170,
+      "cycles": 16600,
+      "on_cycles": 10992,
+      "on_percent": 66.21686746987952,
+      "end_cycles": 2871376
+    },
+    {
+      "duty": 171,
+      "cycles": 16600,
+      "on_cycles": 11056,
+      "on_percent": 66.60240963855422,
+      "end_cycles": 2887976
+    },
+    {
+      "duty": 172,
+      "cycles": 16600,
+      "on_cycles": 11120,
+      "on_percent": 66.98795180722891,
+      "end_cycles": 2904576
+    },
+    {
+      "duty": 173,
+      "cycles": 16600,
+      "on_cycles": 11184,
+      "on_percent": 67.37349397590361,
+      "end_cycles": 2921176
+    },
+    {
+      "duty": 174,
+      "cycles": 16600,
+      "on_cycles": 11248,
+      "on_percent": 67.75903614457832,
+      "end_cycles": 2937776
+    },
+    {
+      "duty": 175,
+      "cycles": 16600,
+      "on_cycles": 11312,
+      "on_percent": 68.144578313253,
+      "end_cycles": 2954376
+    },
+    {
+      "duty": 176,
+      "cycles": 16600,
+      "on_cycles": 11376,
+      "on_percent": 68.53012048192771,
+      "end_cycles": 2970976
+    },
+    {
+      "duty": 177,
+      "cycles": 16600,
+      "on_cycles": 11440,
+      "on_percent": 68.91566265060241,
+      "end_cycles": 2987576
+    },
+    {
+      "duty": 178,
+      "cycles": 16600,
+      "on_cycles": 11504,
+      "on_percent": 69.3012048192771,
+      "end_cycles": 3004176
+    },
+    {
+      "duty": 179,
+      "cycles": 16600,
+      "on_cycles": 11568,
+      "on_percent": 69.6867469879518,
+      "end_cycles": 3020776
+    },
+    {
+      "duty": 180,
+      "cycles": 16600,
+      "on_cycles": 11632,
+      "on_percent": 70.07228915662651,
+      "end_cycles": 3037376
+    },
+    {
+      "duty": 181,
+      "cycles": 16600,
+      "on_cycles": 11696,
+      "on_percent": 70.4578313253012,
+      "end_cycles": 3053976
+    },
+    {
+      "duty": 182,
+      "cycles": 16600,
+      "on_cycles": 11760,
+      "on_percent": 70.8433734939759,
+      "end_cycles": 3070576
+    },
+    {
+      "duty": 183,
+      "cycles": 16600,
+      "on_cycles": 11824,
+      "on_percent": 71.2289156626506,
+      "end_cycles": 3087176
+    },
+    {
+      "duty": 184,
+      "cycles": 16600,
+      "on_cycles": 11888,
+      "on_percent": 71.6144578313253,
+      "end_cycles": 3103776
+    },
+    {
+      "duty": 185,
+      "cycles": 16600,
+      "on_cycles": 11952,
+      "on_percent": 72.0,
+      "end_cycles": 3120376
+    },
+    {
+      "duty": 186,
+      "cycles": 16600,
+      "on_cycles": 12016,
+      "on_percent": 72.3855421686747,
+      "end_cycles": 3136976
+    },
+    {
+      "duty": 187,
+      "cycles": 16600,
+      "on_cycles": 12080,
+      "on_percent": 72.7710843373494,
+      "end_cycles": 3153576
+    },
+    {
+      "duty": 188,
+      "cycles": 16600,
+      "on_cycles": 12144,
+      "on_percent": 73.1566265060241,
+      "end_cycles": 3170176
+    },
+    {
+      "duty": 189,
+      "cycles": 16600,
+      "on_cycles": 12208,
+      "on_percent": 73.5421686746988,
+      "end_cycles": 3186776
+    },
+    {
+      "duty": 190,
+      "cycles": 16600,
+      "on_cycles": 12272,
+      "on_percent": 73.92771084337349,
+      "end_cycles": 3203376
+    },
+    {
+      "duty": 191,
+      "cycles": 16600,
+      "on_cycles": 12336,
+      "on_percent": 74.3132530120482,
+      "end_cycles": 3219976
+    },
+    {
+      "duty": 192,
+      "cycles": 16600,
+      "on_cycles": 12400,
+      "on_percent": 74.6987951807229,
+      "end_cycles": 3236576
+    },
+    {
+      "duty": 193,
+      "cycles": 16600,
+      "on_cycles": 12464,
+      "on_percent": 75.08433734939759,
+      "end_cycles": 3253176
+    },
+    {
+      "duty": 194,
+      "cycles": 16600,
+      "on_cycles": 12528,
+      "on_percent": 75.46987951807229,
+      "end_cycles": 3269776
+    },
+    {
+      "duty": 195,
+      "cycles": 16600,
+      "on_cycles": 12592,
+      "on_percent": 75.855421686747,
+      "end_cycles": 3286376
+    },
+    {
+      "duty": 196,
+      "cycles": 16600,
+      "on_cycles": 12656,
+      "on_percent": 76.24096385542168,
+      "end_cycles": 3302976
+    },
+    {
+      "duty": 197,
+      "cycles": 16600,
+      "on_cycles": 12720,
+      "on_percent": 76.62650602409639,
+      "end_cycles": 3319576
+    },
+    {
+      "duty": 198,
+      "cycles": 16600,
+      "on_cycles": 12784,
+      "on_percent": 77.01204819277109,
+      "end_cycles": 3336176
+    },
+    {
+      "duty": 199,
+      "cycles": 16600,
+      "on_cycles": 12848,
+      "on_percent": 77.39759036144578,
+      "end_cycles": 3352776
+    },
+    {
+      "duty": 200,
+      "cycles": 16600,
+      "on_cycles": 12912,
+      "on_percent": 77.78313253012048,
+      "end_cycles": 3369376
+    },
+    {
+      "duty": 201,
+      "cycles": 16600,
+      "on_cycles": 12976,
+      "on_percent": 78.16867469879519,
+      "end_cycles": 3385976
+    },
+    {
+      "duty": 202,
+      "cycles": 16600,
+      "on_cycles": 13040,
+      "on_percent": 78.55421686746988,
+      "end_cycles": 3402576
+    },
+    {
+      "duty": 203,
+      "cycles": 16600,
+      "on_cycles": 13104,
+      "on_percent": 78.93975903614458,
+      "end_cycles": 3419176
+    },
+    {
+      "duty": 204,
+      "cycles": 16600,
+      "on_cycles": 13168,
+      "on_percent": 79.32530120481928,
+      "end_cycles": 3435776
+    },
+    {
+      "duty": 205,
+      "cycles": 16600,
+      "on_cycles": 13232,
+      "on_percent": 79.71084337349397,
+      "end_cycles": 3452376
+    },
+    {
+      "duty": 206,
+      "cycles": 16600,
+      "on_cycles": 13296,
+      "on_percent": 80.09638554216868,
+      "end_cycles": 3468976
+    },
+    {
+      "duty": 207,
+      "cycles": 16600,
+      "on_cycles": 13360,
+      "on_percent": 80.48192771084338,
+      "end_cycles": 3485576
+    },
+    {
+      "duty": 208,
+      "cycles": 16600,
+      "on_cycles": 13424,
+      "on_percent": 80.86746987951807,
+      "end_cycles": 3502176
+    },
+    {
+      "duty": 209,
+      "cycles": 16600,
+      "on_cycles": 13488,
+      "on_percent": 81.25301204819277,
+      "end_cycles": 3518776
+    },
+    {
+      "duty": 210,
+      "cycles": 16600,
+      "on_cycles": 13552,
+      "on_percent": 81.63855421686748,
+      "end_cycles": 3535376
+    },
+    {
+      "duty": 211,
+      "cycles": 16600,
+      "on_cycles": 13616,
+      "on_percent": 82.02409638554217,
+      "end_cycles": 3551976
+    },
+    {
+      "duty": 212,
+      "cycles": 16600,
+      "on_cycles": 13680,
+      "on_percent": 82.40963855421687,
+      "end_cycles": 3568576
+    },
+    {
+      "duty": 213,
+      "cycles": 16600,
+      "on_cycles": 13744,
+      "on_percent": 82.79518072289157,
+      "end_cycles": 3585176
+    },
+    {
+      "duty": 214,
+      "cycles": 16600,
+      "on_cycles": 13808,
+      "on_percent": 83.18072289156626,
+      "end_cycles": 3601776
+    },
+    {
+      "duty": 215,
+      "cycles": 16600,
+      "on_cycles": 13872,
+      "on_percent": 83.56626506024097,
+      "end_cycles": 3618376
+    },
+    {
+      "duty": 216,
+      "cycles": 16600,
+      "on_cycles": 13936,
+      "on_percent": 83.95180722891567,
+      "end_cycles": 3634976
+    },
+    {
+      "duty": 217,
+      "cycles": 16600,
+      "on_cycles": 14000,
+      "on_percent": 84.33734939759036,
+      "end_cycles": 3651576
+    },
+    {
+      "duty": 218,
+      "cycles": 16600,
+      "on_cycles": 14064,
+      "on_percent": 84.72289156626506,
+      "end_cycles": 3668176
+    },
+    {
+      "duty": 219,
+      "cycles": 16600,
+      "on_cycles": 14128,
+      "on_percent": 85.10843373493977,
+      "end_cycles": 3684776
+    },
+    {
+      "duty": 220,
+      "cycles": 16600,
+      "on_cycles": 14192,
+      "on_percent": 85.49397590361446,
+      "end_cycles": 3701376
+    },
+    {
+      "duty": 221,
+      "cycles": 16600,
+      "on_cycles": 14256,
+      "on_percent": 85.87951807228916,
+      "end_cycles": 3717976
+    },
+    {
+      "duty": 222,
+      "cycles": 16600,
+      "on_cycles": 14320,
+      "on_percent": 86.26506024096386,
+      "end_cycles": 3734576
+    },
+    {
+      "duty": 223,
+      "cycles": 16600,
+      "on_cycles": 14384,
+      "on_percent": 86.65060240963855,
+      "end_cycles": 3751176
+    },
+    {
+      "duty": 224,
+      "cycles": 16600,
+      "on_cycles": 14448,
+      "on_percent": 87.03614457831326,
+      "end_cycles": 3767776
+    },
+    {
+      "duty": 225,
+      "cycles": 16600,
+      "on_cycles": 14512,
+      "on_percent": 87.42168674698796,
+      "end_cycles": 3784376
+    },
+    {
+      "duty": 226,
+      "cycles": 16600,
+      "on_cycles": 14576,
+      "on_percent": 87.80722891566265,
+      "end_cycles": 3800976
+    },
+    {
+      "duty": 227,
+      "cycles": 16600,
+      "on_cycles": 14640,
+      "on_percent": 88.19277108433735,
+      "end_cycles": 3817576
+    },
+    {
+      "duty": 228,
+      "cycles": 16600,
+      "on_cycles": 14704,
+      "on_percent": 88.57831325301204,
+      "end_cycles": 3834176
+    },
+    {
+      "duty": 229,
+      "cycles": 16600,
+      "on_cycles": 14768,
+      "on_percent": 88.96385542168674,
+      "end_cycles": 3850776
+    },
+    {
+      "duty": 230,
+      "cycles": 16600,
+      "on_cycles": 14832,
+      "on_percent": 89.34939759036145,
+      "end_cycles": 3867376
+    },
+    {
+      "duty": 231,
+      "cycles": 16600,
+      "on_cycles": 14896,
+      "on_percent": 89.73493975903614,
+      "end_cycles": 3883976
+    },
+    {
+      "duty": 232,
+      "cycles": 16600,
+      "on_cycles": 14960,
+      "on_percent": 90.12048192771084,
+      "end_cycles": 3900576
+    },
+    {
+      "duty": 233,
+      "cycles": 16600,
+      "on_cycles": 15024,
+      "on_percent": 90.50602409638554,
+      "end_cycles": 3917176
+    },
+    {
+      "duty": 234,
+      "cycles": 16600,
+      "on_cycles": 15088,
+      "on_percent": 90.89156626506023,
+      "end_cycles": 3933776
+    },
+    {
+      "duty": 235,
+      "cycles": 16600,
+      "on_cycles": 15152,
+      "on_percent": 91.27710843373494,
+      "end_cycles": 3950376
+    },
+    {
+      "duty": 236,
+      "cycles": 16600,
+      "on_cycles": 15216,
+      "on_percent": 91.66265060240964,
+      "end_cycles": 3966976
+    },
+    {
+      "duty": 237,
+      "cycles": 16600,
+      "on_cycles": 15280,
+      "on_percent": 92.04819277108433,
+      "end_cycles": 3983576
+    },
+    {
+      "duty": 238,
+      "cycles": 16600,
+      "on_cycles": 15344,
+      "on_percent": 92.43373493975903,
+      "end_cycles": 4000176
+    },
+    {
+      "duty": 239,
+      "cycles": 16600,
+      "on_cycles": 15408,
+      "on_percent": 92.81927710843374,
+      "end_cycles": 4016776
+    },
+    {
+      "duty": 240,
+      "cycles": 16600,
+      "on_cycles": 15472,
+      "on_percent": 93.20481927710843,
+      "end_cycles": 4033376
+    },
+    {
+      "duty": 241,
+      "cycles": 16600,
+      "on_cycles": 15536,
+      "on_percent": 93.59036144578313,
+      "end_cycles": 4049976
+    },
+    {
+      "duty": 242,
+      "cycles": 16600,
+      "on_cycles": 15600,
+      "on_percent": 93.97590361445783,
+      "end_cycles": 4066576
+    },
+    {
+      "duty": 243,
+      "cycles": 16600,
+      "on_cycles": 15664,
+      "on_percent": 94.36144578313252,
+      "end_cycles": 4083176
+    },
+    {
+      "duty": 244,
+      "cycles": 16600,
+      "on_cycles": 15728,
+      "on_percent": 94.74698795180723,
+      "end_cycles": 4099776
+    },
+    {
+      "duty": 245,
+      "cycles": 16600,
+      "on_cycles": 15792,
+      "on_percent": 95.13253012048193,
+      "end_cycles": 4116376
+    },
+    {
+      "duty": 246,
+      "cycles": 16600,
+      "on_cycles": 15856,
+      "on_percent": 95.51807228915662,
+      "end_cycles": 4132976
+    },
+    {
+      "duty": 247,
+      "cycles": 16600,
+      "on_cycles": 15920,
+      "on_percent": 95.90361445783132,
+      "end_cycles": 4149576
+    },
+    {
+      "duty": 248,
+      "cycles": 16600,
+      "on_cycles": 15984,
+      "on_percent": 96.28915662650603,
+      "end_cycles": 4166176
+    },
+    {
+      "duty": 249,
+      "cycles": 16600,
+      "on_cycles": 16048,
+      "on_percent": 96.67469879518072,
+      "end_cycles": 4182776
+    },
+    {
+      "duty": 250,
+      "cycles": 16600,
+      "on_cycles": 16112,
+      "on_percent": 97.06024096385542,
+      "end_cycles": 4199376
+    },
+    {
+      "duty": 251,
+      "cycles": 16600,
+      "on_cycles": 16176,
+      "on_percent": 97.44578313253012,
+      "end_cycles": 4215976
+    },
+    {
+      "duty": 252,
+      "cycles": 16600,
+      "on_cycles": 16240,
+      "on_percent": 97.83132530120481,
+      "end_cycles": 4232576
+    },
+    {
+      "duty": 253,
+      "cycles": 16600,
+      "on_cycles": 16304,
+      "on_percent": 98.21686746987952,
+      "end_cycles": 4249176
+    },
+    {
+      "duty": 254,
+      "cycles": 16600,
+      "on_cycles": 16368,
+      "on_percent": 98.60240963855422,
+      "end_cycles": 4265776
+    },
+    {
+      "duty": 255,
+      "cycles": 16601,
+      "on_cycles": 16588,
+      "on_percent": 99.92169146436962,
+      "end_cycles": 4282377
+    },
+    {
+      "duty": 255,
+      "cycles": 16598,
+      "on_cycles": 16598,
+      "on_percent": 100.0,
+      "end_cycles": 4298977
+    },
+    {
+      "duty": 254,
+      "cycles": 16600,
+      "on_cycles": 16381,
+      "on_percent": 98.68072289156626,
+      "end_cycles": 4315577
+    },
+    {
+      "duty": 253,
+      "cycles": 16600,
+      "on_cycles": 16304,
+      "on_percent": 98.21686746987952,
+      "end_cycles": 4332177
+    },
+    {
+      "duty": 252,
+      "cycles": 16600,
+      "on_cycles": 16240,
+      "on_percent": 97.83132530120481,
+      "end_cycles": 4348777
+    },
+    {
+      "duty": 251,
+      "cycles": 16600,
+      "on_cycles": 16176,
+      "on_percent": 97.44578313253012,
+      "end_cycles": 4365377
+    },
+    {
+      "duty": 250,
+      "cycles": 16600,
+      "on_cycles": 16112,
+      "on_percent": 97.06024096385542,
+      "end_cycles": 4381977
+    },
+    {
+      "duty": 249,
+      "cycles": 16600,
+      "on_cycles": 16048,
+      "on_percent": 96.67469879518072,
+      "end_cycles": 4398577
+    },
+    {
+      "duty": 248,
+      "cycles": 16600,
+      "on_cycles": 15984,
+      "on_percent": 96.28915662650603,
+      "end_cycles": 4415177
+    },
+    {
+      "duty": 247,
+      "cycles": 16600,
+      "on_cycles": 15920,
+      "on_percent": 95.90361445783132,
+      "end_cycles": 4431777
+    },
+    {
+      "duty": 246,
+      "cycles": 16600,
+      "on_cycles": 15856,
+      "on_percent": 95.51807228915662,
+      "end_cycles": 4448377
+    },
+    {
+      "duty": 245,
+      "cycles": 16600,
+      "on_cycles": 15792,
+      "on_percent": 95.13253012048193,
+      "end_cycles": 4464977
+    },
+    {
+      "duty": 244,
+      "cycles": 16600,
+      "on_cycles": 15728,
+      "on_percent": 94.74698795180723,
+      "end_cycles": 4481577
+    },
+    {
+      "duty": 243,
+      "cycles": 16600,
+      "on_cycles": 15664,
+      "on_percent": 94.36144578313252,
+      "end_cycles": 4498177
+    },
+    {
+      "duty": 242,
+      "cycles": 16600,
+      "on_cycles": 15600,
+      "on_percent": 93.97590361445783,
+      "end_cycles": 4514777
+    },
+    {
+      "duty": 241,
+      "cycles": 16600,
+      "on_cycles": 15536,
+      "on_percent": 93.59036144578313,
+      "end_cycles": 4531377
+    },
+    {
+      "duty": 240,
+      "cycles": 16600,
+      "on_cycles": 15472,
+      "on_percent": 93.20481927710843,
+      "end_cycles": 4547977
+    },
+    {
+      "duty": 239,
+      "cycles": 16600,
+      "on_cycles": 15408,
+      "on_percent": 92.81927710843374,
+      "end_cycles": 4564577
+    },
+    {
+      "duty": 238,
+      "cycles": 16600,
+      "on_cycles": 15344,
+      "on_percent": 92.43373493975903,
+      "end_cycles": 4581177
+    },
+    {
+      "duty": 237,
+      "cycles": 16600,
+      "on_cycles": 15280,
+      "on_percent": 92.04819277108433,
+      "end_cycles": 4597777
+    },
+    {
+      "duty": 236,
+      "cycles": 16600,
+      "on_cycles": 15216,
+      "on_percent": 91.66265060240964,
+      "end_cycles": 4614377
+    },
+    {
+      "duty": 235,
+      "cycles": 16600,
+      "on_cycles": 15152,
+      "on_percent": 91.27710843373494,
+      "end_cycles": 4630977
+    },
+    {
+      "duty": 234,
+      "cycles": 16600,
+      "on_cycles": 15088,
+      "on_percent": 90.89156626506023,
+      "end_cycles": 4647577
+    },
+    {
+      "duty": 233,
+      "cycles": 16600,
+      "on_cycles": 15024,
+      "on_percent": 90.50602409638554,
+      "end_cycles": 4664177
+    },
+    {
+      "duty": 232,
+      "cycles": 16600,
+      "on_cycles": 14960,
+      "on_percent": 90.12048192771084,
+      "end_cycles": 4680777
+    },
+    {
+      "duty": 231,
+      "cycles": 16600,
+      "on_cycles": 14896,
+      "on_percent": 89.73493975903614,
+      "end_cycles": 4697377
+    },
+    {
+      "duty": 230,
+      "cycles": 16600,
+      "on_cycles": 14832,
+      "on_percent": 89.34939759036145,
+      "end_cycles": 4713977
+    },
+    {
+      "duty": 229,
+      "cycles": 16600,
+      "on_cycles": 14768,
+      "on_percent": 88.96385542168674,
+      "end_cycles": 4730577
+    },
+    {
+      "duty": 228,
+      "cycles": 16600,
+      "on_cycles": 14704,
+      "on_percent": 88.57831325301204,
+      "end_cycles": 4747177
+    },
+    {
+      "duty": 227,
+      "cycles": 16600,
+      "on_cycles": 14640,
+      "on_percent": 88.19277108433735,
+      "end_cycles": 4763777
+    },
+    {
+      "duty": 226,
+      "cycles": 16600,
+      "on_cycles": 14576,
+      "on_percent": 87.80722891566265,
+      "end_cycles": 4780377
+    },
+    {
+      "duty": 225,
+      "cycles": 16600,
+      "on_cycles": 14512,
+      "on_percent": 87.42168674698796,
+      "end_cycles": 4796977
+    },
+    {
+      "duty": 224,
+      "cycles": 16600,
+      "on_cycles": 14448,
+      "on_percent": 87.03614457831326,
+      "end_cycles": 4813577
+    },
+    {
+      "duty": 223,
+      "cycles": 16600,
+      "on_cycles": 14384,
+      "on_percent": 86.65060240963855,
+      "end_cycles": 4830177
+    },
+    {
+      "duty": 222,
+      "cycles": 16600,
+      "on_cycles": 14320,
+      "on_percent": 86.26506024096386,
+      "end_cycles": 4846777
+    },
+    {
+      "duty": 221,
+      "cycles": 16600,
+      "on_cycles": 14256,
+      "on_percent": 85.87951807228916,
+      "end_cycles": 4863377
+    },
+    {
+      "duty": 220,
+      "cycles": 16600,
+      "on_cycles": 14192,
+      "on_percent": 85.49397590361446,
+      "end_cycles": 4879977
+    },
+    {
+      "duty": 219,
+      "cycles": 16600,
+      "on_cycles": 14128,
+      "on_percent": 85.10843373493977,
+      "end_cycles": 4896577
+    },
+    {
+      "duty": 218,
+      "cycles": 16600,
+      "on_cycles": 14064,
+      "on_percent": 84.72289156626506,
+      "end_cycles": 4913177
+    },
+    {
+      "duty": 217,
+      "cycles": 16600,
+      "on_cycles": 14000,
+      "on_percent": 84.33734939759036,
+      "end_cycles": 4929777
+    },
+    {
+      "duty": 216,
+      "cycles": 16600,
+      "on_cycles": 13936,
+      "on_percent": 83.95180722891567,
+      "end_cycles": 4946377
+    },
+    {
+      "duty": 215,
+      "cycles": 16600,
+      "on_cycles": 13872,
+      "on_percent": 83.56626506024097,
+      "end_cycles": 4962977
+    },
+    {
+      "duty": 214,
+      "cycles": 16600,
+      "on_cycles": 13808,
+      "on_percent": 83.18072289156626,
+      "end_cycles": 4979577
+    },
+    {
+      "duty": 213,
+      "cycles": 16600,
+      "on_cycles": 13744,
+      "on_percent": 82.79518072289157,
+      "end_cycles": 4996177
+    },
+    {
+      "duty": 212,
+      "cycles": 16600,
+      "on_cycles": 13680,
+      "on_percent": 82.40963855421687,
+      "end_cycles": 5012777
+    },
+    {
+      "duty": 211,
+      "cycles": 16600,
+      "on_cycles": 13616,
+      "on_percent": 82.02409638554217,
+      "end_cycles": 5029377
+    },
+    {
+      "duty": 210,
+      "cycles": 16600,
+      "on_cycles": 13552,
+      "on_percent": 81.63855421686748,
+      "end_cycles": 5045977
+    },
+    {
+      "duty": 209,
+      "cycles": 16600,
+      "on_cycles": 13488,
+      "on_percent": 81.25301204819277,
+      "end_cycles": 5062577
+    },
+    {
+      "duty": 208,
+      "cycles": 16600,
+      "on_cycles": 13424,
+      "on_percent": 80.86746987951807,
+      "end_cycles": 5079177
+    },
+    {
+      "duty": 207,
+      "cycles": 16600,
+      "on_cycles": 13360,
+      "on_percent": 80.48192771084338,
+      "end_cycles": 5095777
+    },
+    {
+      "duty": 206,
+      "cycles": 16600,
+      "on_cycles": 13296,
+      "on_percent": 80.09638554216868,
+      "end_cycles": 5112377
+    },
+    {
+      "duty": 205,
+      "cycles": 16600,
+      "on_cycles": 13232,
+      "on_percent": 79.71084337349397,
+      "end_cycles": 5128977
+    },
+    {
+      "duty": 204,
+      "cycles": 16600,
+      "on_cycles": 13168,
+      "on_percent": 79.32530120481928,
+      "end_cycles": 5145577
+    },
+    {
+      "duty": 203,
+      "cycles": 16600,
+      "on_cycles": 13104,
+      "on_percent": 78.93975903614458,
+      "end_cycles": 5162177
+    },
+    {
+      "duty": 202,
+      "cycles": 16600,
+      "on_cycles": 13040,
+      "on_percent": 78.55421686746988,
+      "end_cycles": 5178777
+    },
+    {
+      "duty": 201,
+      "cycles": 16600,
+      "on_cycles": 12976,
+      "on_percent": 78.16867469879519,
+      "end_cycles": 5195377
+    },
+    {
+      "duty": 200,
+      "cycles": 16600,
+      "on_cycles": 12912,
+      "on_percent": 77.78313253012048,
+      "end_cycles": 5211977
+    },
+    {
+      "duty": 199,
+      "cycles": 16600,
+      "on_cycles": 12848,
+      "on_percent": 77.39759036144578,
+      "end_cycles": 5228577
+    },
+    {
+      "duty": 198,
+      "cycles": 16600,
+      "on_cycles": 12784,
+      "on_percent": 77.01204819277109,
+      "end_cycles": 5245177
+    },
+    {
+      "duty": 197,
+      "cycles": 16600,
+      "on_cycles": 12720,
+      "on_percent": 76.62650602409639,
+      "end_cycles": 5261777
+    },
+    {
+      "duty": 196,
+      "cycles": 16600,
+      "on_cycles": 12656,
+      "on_percent": 76.24096385542168,
+      "end_cycles": 5278377
+    },
+    {
+      "duty": 195,
+      "cycles": 16600,
+      "on_cycles": 12592,
+      "on_percent": 75.855421686747,
+      "end_cycles": 5294977
+    },
+    {
+      "duty": 194,
+      "cycles": 16600,
+      "on_cycles": 12528,
+      "on_percent": 75.46987951807229,
+      "end_cycles": 5311577
+    },
+    {
+      "duty": 193,
+      "cycles": 16600,
+      "on_cycles": 12464,
+      "on_percent": 75.08433734939759,
+      "end_cycles": 5328177
+    },
+    {
+      "duty": 192,
+      "cycles": 16600,
+      "on_cycles": 12400,
+      "on_percent": 74.6987951807229,
+      "end_cycles": 5344777
+    },
+    {
+      "duty": 191,
+      "cycles": 16600,
+      "on_cycles": 12336,
+      "on_percent": 74.3132530120482,
+      "end_cycles": 5361377
+    },
+    {
+      "duty": 190,
+      "cycles": 16600,
+      "on_cycles": 12272,
+      "on_percent": 73.92771084337349,
+      "end_cycles": 5377977
+    },
+    {
+      "duty": 189,
+      "cycles": 16600,
+      "on_cycles": 12208,
+      "on_percent": 73.5421686746988,
+      "end_cycles": 5394577
+    },
+    {
+      "duty": 188,
+      "cycles": 16600,
+      "on_cycles": 12144,
+      "on_percent": 73.1566265060241,
+      "end_cycles": 5411177
+    },
+    {
+      "duty": 187,
+      "cycles": 16600,
+      "on_cycles": 12080,
+      "on_percent": 72.7710843373494,
+      "end_cycles": 5427777
+    },
+    {
+      "duty": 186,
+      "cycles": 16600,
+      "on_cycles": 12016,
+      "on_percent": 72.3855421686747,
+      "end_cycles": 5444377
+    },
+    {
+      "duty": 185,
+      "cycles": 16600,
+      "on_cycles": 11952,
+      "on_percent": 72.0,
+      "end_cycles": 5460977
+    },
+    {
+      "duty": 184,
+      "cycles": 16600,
+      "on_cycles": 11888,
+      "on_percent": 71.6144578313253,
+      "end_cycles": 5477577
+    },
+    {
+      "duty": 183,
+      "cycles": 16600,
+      "on_cycles": 11824,
+      "on_percent": 71.2289156626506,
+      "end_cycles": 5494177
+    },
+    {
+      "duty": 182,
+      "cycles": 16600,
+      "on_cycles": 11760,
+      "on_percent": 70.8433734939759,
+      "end_cycles": 5510777
+    },
+    {
+      "duty": 181,
+      "cycles": 16600,
+      "on_cycles": 11696,
+      "on_percent": 70.4578313253012,
+      "end_cycles": 5527377
+    },
+    {
+      "duty": 180,
+      "cycles": 16600,
+      "on_cycles": 11632,
+      "on_percent": 70.07228915662651,
+      "end_cycles": 5543977
+    },
+    {
+      "duty": 179,
+      "cycles": 16600,
+      "on_cycles": 11568,
+      "on_percent": 69.6867469879518,
+      "end_cycles": 5560577
+    },
+    {
+      "duty": 178,
+      "cycles": 16600,
+      "on_cycles": 11504,
+      "on_percent": 69.3012048192771,
+      "end_cycles": 5577177
+    },
+    {
+      "duty": 177,
+      "cycles": 16600,
+      "on_cycles": 11440,
+      "on_percent": 68.91566265060241,
+      "end_cycles": 5593777
+    },
+    {
+      "duty": 176,
+      "cycles": 16600,
+      "on_cycles": 11376,
+      "on_percent": 68.53012048192771,
+      "end_cycles": 5610377
+    },
+    {
+      "duty": 175,
+      "cycles": 16600,
+      "on_cycles": 11312,
+      "on_percent": 68.144578313253,
+      "end_cycles": 5626977
+    },
+    {
+      "duty": 174,
+      "cycles": 16600,
+      "on_cycles": 11248,
+      "on_percent": 67.75903614457832,
+      "end_cycles": 5643577
+    },
+    {
+      "duty": 173,
+      "cycles": 16600,
+      "on_cycles": 11184,
+      "on_percent": 67.37349397590361,
+      "end_cycles": 5660177
+    },
+    {
+      "duty": 172,
+      "cycles": 16600,
+      "on_cycles": 11120,
+      "on_percent": 66.98795180722891,
+      "end_cycles": 5676777
+    },
+    {
+      "duty": 171,
+      "cycles": 16600,
+      "on_cycles": 11056,
+      "on_percent": 66.60240963855422,
+      "end_cycles": 5693377
+    },
+    {
+      "duty": 170,
+      "cycles": 16600,
+      "on_cycles": 10992,
+      "on_percent": 66.21686746987952,
+      "end_cycles": 5709977
+    },
+    {
+      "duty": 169,
+      "cycles": 16600,
+      "on_cycles": 10928,
+      "on_percent": 65.83132530120481,
+      "end_cycles": 5726577
+    },
+    {
+      "duty": 168,
+      "cycles": 16600,
+      "on_cycles": 10864,
+      "on_percent": 65.44578313253012,
+      "end_cycles": 5743177
+    },
+    {
+      "duty": 167,
+      "cycles": 16600,
+      "on_cycles": 10800,
+      "on_percent": 65.06024096385542,
+      "end_cycles": 5759777
+    },
+    {
+      "duty": 166,
+      "cycles": 16600,
+      "on_cycles": 10736,
+      "on_percent": 64.67469879518072,
+      "end_cycles": 5776377
+    },
+    {
+      "duty": 165,
+      "cycles": 16600,
+      "on_cycles": 10672,
+      "on_percent": 64.28915662650603,
+      "end_cycles": 5792977
+    },
+    {
+      "duty": 164,
+      "cycles": 16600,
+      "on_cycles": 10608,
+      "on_percent": 63.903614457831324,
+      "end_cycles": 5809577
+    },
+    {
+      "duty": 163,
+      "cycles": 16600,
+      "on_cycles": 10544,
+      "on_percent": 63.51807228915663,
+      "end_cycles": 5826177
+    },
+    {
+      "duty": 162,
+      "cycles": 16600,
+      "on_cycles": 10480,
+      "on_percent": 63.13253012048193,
+      "end_cycles": 5842777
+    },
+    {
+      "duty": 161,
+      "cycles": 16600,
+      "on_cycles": 10416,
+      "on_percent": 62.74698795180723,
+      "end_cycles": 5859377
+    },
+    {
+      "duty": 160,
+      "cycles": 16600,
+      "on_cycles": 10352,
+      "on_percent": 62.36144578313253,
+      "end_cycles": 5875977
+    },
+    {
+      "duty": 159,
+      "cycles": 16600,
+      "on_cycles": 10288,
+      "on_percent": 61.975903614457835,
+      "end_cycles": 5892577
+    },
+    {
+      "duty": 158,
+      "cycles": 16600,
+      "on_cycles": 10224,
+      "on_percent": 61.59036144578313,
+      "end_cycles": 5909177
+    },
+    {
+      "duty": 157,
+      "cycles": 16600,
+      "on_cycles": 10160,
+      "on_percent": 61.204819277108435,
+      "end_cycles": 5925777
+    },
+    {
+      "duty": 156,
+      "cycles": 16600,
+      "on_cycles": 10096,
+      "on_percent": 60.81927710843374,
+      "end_cycles": 5942377
+    },
+    {
+      "duty": 155,
+      "cycles": 16600,
+      "on_cycles": 10032,
+      "on_percent": 60.433734939759034,
+      "end_cycles": 5958977
+    },
+    {
+      "duty": 154,
+      "cycles": 16600,
+      "on_cycles": 9968,
+      "on_percent": 60.04819277108434,
+      "end_cycles": 5975577
+    },
+    {
+      "duty": 153,
+      "cycles": 16600,
+      "on_cycles": 9904,
+      "on_percent": 59.66265060240964,
+      "end_cycles": 5992177
+    },
+    {
+      "duty": 152,
+      "cycles": 16600,
+      "on_cycles": 9840,
+      "on_percent": 59.27710843373494,
+      "end_cycles": 6008777
+    },
+    {
+      "duty": 151,
+      "cycles": 16600,
+      "on_cycles": 9776,
+      "on_percent": 58.89156626506024,
+      "end_cycles": 6025377
+    },
+    {
+      "duty": 150,
+      "cycles": 16600,
+      "on_cycles": 9712,
+      "on_percent": 58.506024096385545,
+      "end_cycles": 6041977
+    },
+    {
+      "duty": 149,
+      "cycles": 16600,
+      "on_cycles": 9648,
+      "on_percent": 58.12048192771084,
+      "end_cycles": 6058577
+    },
+    {
+      "duty": 148,
+      "cycles": 16600,
+      "on_cycles": 9584,
+      "on_percent": 57.734939759036145,
+      "end_cycles": 6075177
+    },
+    {
+      "duty": 147,
+      "cycles": 16600,
+      "on_cycles": 9520,
+      "on_percent": 57.34939759036145,
+      "end_cycles": 6091777
+    },
+    {
+      "duty": 146,
+      "cycles": 16600,
+      "on_cycles": 9456,
+      "on_percent": 56.963855421686745,
+      "end_cycles": 6108377
+    },
+    {
+      "duty": 145,
+      "cycles": 16600,
+      "on_cycles": 9392,
+      "on_percent": 56.57831325301205,
+      "end_cycles": 6124977
+    },
+    {
+      "duty": 144,
+      "cycles": 16600,
+      "on_cycles": 9328,
+      "on_percent": 56.19277108433735,
+      "end_cycles": 6141577
+    },
+    {
+      "duty": 143,
+      "cycles": 16600,
+      "on_cycles": 9264,
+      "on_percent": 55.80722891566265,
+      "end_cycles": 6158177
+    },
+    {
+      "duty": 142,
+      "cycles": 16600,
+      "on_cycles": 9200,
+      "on_percent": 55.42168674698795,
+      "end_cycles": 6174777
+    },
+    {
+      "duty": 141,
+      "cycles": 16600,
+      "on_cycles": 9136,
+      "on_percent": 55.036144578313255,
+      "end_cycles": 6191377
+    },
+    {
+      "duty": 140,
+      "cycles": 16600,
+      "on_cycles": 9072,
+      "on_percent": 54.65060240963855,
+      "end_cycles": 6207977
+    },
+    {
+      "duty": 139,
+      "cycles": 16600,
+      "on_cycles": 9008,
+      "on_percent": 54.265060240963855,
+      "end_cycles": 6224577
+    },
+    {
+      "duty": 138,
+      "cycles": 16600,
+      "on_cycles": 8944,
+      "on_percent": 53.87951807228916,
+      "end_cycles": 6241177
+    },
+    {
+      "duty": 137,
+      "cycles": 16600,
+      "on_cycles": 8880,
+      "on_percent": 53.493975903614455,
+      "end_cycles": 6257777
+    },
+    {
+      "duty": 136,
+      "cycles": 16600,
+      "on_cycles": 8816,
+      "on_percent": 53.10843373493976,
+      "end_cycles": 6274377
+    },
+    {
+      "duty": 135,
+      "cycles": 16600,
+      "on_cycles": 8752,
+      "on_percent": 52.72289156626506,
+      "end_cycles": 6290977
+    },
+    {
+      "duty": 134,
+      "cycles": 16600,
+      "on_cycles": 8688,
+      "on_percent": 52.33734939759036,
+      "end_cycles": 6307577
+    },
+    {
+      "duty": 133,
+      "cycles": 16600,
+      "on_cycles": 8624,
+      "on_percent": 51.95180722891566,
+      "end_cycles": 6324177
+    },
+    {
+      "duty": 132,
+      "cycles": 16600,
+      "on_cycles": 8560,
+      "on_percent": 51.566265060240966,
+      "end_cycles": 6340777
+    },
+    {
+      "duty": 131,
+      "cycles": 16600,
+      "on_cycles": 8496,
+      "on_percent": 51.18072289156626,
+      "end_cycles": 6357377
+    },
+    {
+      "duty": 130,
+      "cycles": 16600,
+      "on_cycles": 8432,
+      "on_percent": 50.795180722891565,
+      "end_cycles": 6373977
+    },
+    {
+      "duty": 129,
+      "cycles": 16600,
+      "on_cycles": 8368,
+      "on_percent": 50.40963855421687,
+      "end_cycles": 6390577
+    },
+    {
+      "duty": 128,
+      "cycles": 16600,
+      "on_cycles": 8304,
+      "on_percent": 50.024096385542165,
+      "end_cycles": 6407177
+    },
+    {
+      "duty": 127,
+      "cycles": 16600,
+      "on_cycles": 8240,
+      "on_percent": 49.63855421686747,
+      "end_cycles": 6423777
+    },
+    {
+      "duty": 126,
+      "cycles": 16600,
+      "on_cycles": 8176,
+      "on_percent": 49.25301204819277,
+      "end_cycles": 6440377
+    },
+    {
+      "duty": 125,
+      "cycles": 16600,
+      "on_cycles": 8112,
+      "on_percent": 48.86746987951807,
+      "end_cycles": 6456977
+    },
+    {
+      "duty": 124,
+      "cycles": 16600,
+      "on_cycles": 8048,
+      "on_percent": 48.48192771084337,
+      "end_cycles": 6473577
+    },
+    {
+      "duty": 123,
+      "cycles": 16600,
+      "on_cycles": 7984,
+      "on_percent": 48.096385542168676,
+      "end_cycles": 6490177
+    },
+    {
+      "duty": 122,
+      "cycles": 16600,
+      "on_cycles": 7920,
+      "on_percent": 47.71084337349398,
+      "end_cycles": 6506777
+    },
+    {
+      "duty": 121,
+      "cycles": 16600,
+      "on_cycles": 7856,
+      "on_percent": 47.325301204819276,
+      "end_cycles": 6523377
+    },
+    {
+      "duty": 120,
+      "cycles": 16600,
+      "on_cycles": 7792,
+      "on_percent": 46.93975903614458,
+      "end_cycles": 6539977
+    },
+    {
+      "duty": 119,
+      "cycles": 16600,
+      "on_cycles": 7728,
+      "on_percent": 46.55421686746988,
+      "end_cycles": 6556577
+    },
+    {
+      "duty": 118,
+      "cycles": 16600,
+      "on_cycles": 7664,
+      "on_percent": 46.16867469879518,
+      "end_cycles": 6573177
+    },
+    {
+      "duty": 117,
+      "cycles": 16600,
+      "on_cycles": 7600,
+      "on_percent": 45.78313253012048,
+      "end_cycles": 6589777
+    },
+    {
+      "duty": 116,
+      "cycles": 16600,
+      "on_cycles": 7536,
+      "on_percent": 45.397590361445786,
+      "end_cycles": 6606377
+    },
+    {
+      "duty": 115,
+      "cycles": 16600,
+      "on_cycles": 7472,
+      "on_percent": 45.01204819277108,
+      "end_cycles": 6622977
+    },
+    {
+      "duty": 114,
+      "cycles": 16600,
+      "on_cycles": 7408,
+      "on_percent": 44.626506024096386,
+      "end_cycles": 6639577
+    },
+    {
+      "duty": 113,
+      "cycles": 16600,
+      "on_cycles": 7344,
+      "on_percent": 44.24096385542169,
+      "end_cycles": 6656177
+    },
+    {
+      "duty": 112,
+      "cycles": 16600,
+      "on_cycles": 7280,
+      "on_percent": 43.855421686746986,
+      "end_cycles": 6672777
+    },
+    {
+      "duty": 111,
+      "cycles": 16600,
+      "on_cycles": 7216,
+      "on_percent": 43.46987951807229,
+      "end_cycles": 6689377
+    },
+    {
+      "duty": 110,
+      "cycles": 16600,
+      "on_cycles": 7152,
+      "on_percent": 43.08433734939759,
+      "end_cycles": 6705977
+    },
+    {
+      "duty": 109,
+      "cycles": 16600,
+      "on_cycles": 7088,
+      "on_percent": 42.69879518072289,
+      "end_cycles": 6722577
+    },
+    {
+      "duty": 108,
+      "cycles": 16600,
+      "on_cycles": 7024,
+      "on_percent": 42.31325301204819,
+      "end_cycles": 6739177
+    },
+    {
+      "duty": 107,
+      "cycles": 16600,
+      "on_cycles": 6960,
+      "on_percent": 41.9277108433735,
+      "end_cycles": 6755777
+    },
+    {
+      "duty": 106,
+      "cycles": 16600,
+      "on_cycles": 6896,
+      "on_percent": 41.54216867469879,
+      "end_cycles": 6772377
+    },
+    {
+      "duty": 105,
+      "cycles": 16600,
+      "on_cycles": 6832,
+      "on_percent": 41.1566265060241,
+      "end_cycles": 6788977
+    },
+    {
+      "duty": 104,
+      "cycles": 16600,
+      "on_cycles": 6768,
+      "on_percent": 40.7710843373494,
+      "end_cycles": 6805577
+    },
+    {
+      "duty": 103,
+      "cycles": 16600,
+      "on_cycles": 6704,
+      "on_percent": 40.3855421686747,
+      "end_cycles": 6822177
+    },
+    {
+      "duty": 102,
+      "cycles": 16600,
+      "on_cycles": 6640,
+      "on_percent": 40.0,
+      "end_cycles": 6838777
+    },
+    {
+      "duty": 101,
+      "cycles": 16600,
+      "on_cycles": 6576,
+      "on_percent": 39.6144578313253,
+      "end_cycles": 6855377
+    },
+    {
+      "duty": 100,
+      "cycles": 16600,
+      "on_cycles": 6512,
+      "on_percent": 39.2289156626506,
+      "end_cycles": 6871977
+    },
+    {
+      "duty": 99,
+      "cycles": 16600,
+      "on_cycles": 6448,
+      "on_percent": 38.8433734939759,
+      "end_cycles": 6888577
+    },
+    {
+      "duty": 98,
+      "cycles": 16600,
+      "on_cycles": 6384,
+      "on_percent": 38.45783132530121,
+      "end_cycles": 6905177
+    },
+    {
+      "duty": 97,
+      "cycles": 16600,
+      "on_cycles": 6320,
+      "on_percent": 38.0722891566265,
+      "end_cycles": 6921777
+    },
+    {
+      "duty": 96,
+      "cycles": 16600,
+      "on_cycles": 6256,
+      "on_percent": 37.68674698795181,
+      "end_cycles": 6938377
+    },
+    {
+      "duty": 95,
+      "cycles": 16600,
+      "on_cycles": 6192,
+      "on_percent": 37.30120481927711,
+      "end_cycles": 6954977
+    },
+    {
+      "duty": 94,
+      "cycles": 16600,
+      "on_cycles": 6128,
+      "on_percent": 36.91566265060241,
+      "end_cycles": 6971577
+    },
+    {
+      "duty": 93,
+      "cycles": 16600,
+      "on_cycles": 6064,
+      "on_percent": 36.53012048192771,
+      "end_cycles": 6988177
+    },
+    {
+      "duty": 92,
+      "cycles": 16600,
+      "on_cycles": 6000,
+      "on_percent": 36.144578313253014,
+      "end_cycles": 7004777
+    },
+    {
+      "duty": 91,
+      "cycles": 16600,
+      "on_cycles": 5936,
+      "on_percent": 35.75903614457831,
+      "end_cycles": 7021377
+    },
+    {
+      "duty": 90,
+      "cycles": 16600,
+      "on_cycles": 5872,
+      "on_percent": 35.373493975903614,
+      "end_cycles": 7037977
+    },
+    {
+      "duty": 89,
+      "cycles": 16600,
+      "on_cycles": 5808,
+      "on_percent": 34.98795180722892,
+      "end_cycles": 7054577
+    },
+    {
+      "duty": 88,
+      "cycles": 16600,
+      "on_cycles": 5744,
+      "on_percent": 34.602409638554214,
+      "end_cycles": 7071177
+    },
+    {
+      "duty": 87,
+      "cycles": 16600,
+      "on_cycles": 5680,
+      "on_percent": 34.21686746987952,
+      "end_cycles": 7087777
+    },
+    {
+      "duty": 86,
+      "cycles": 16600,
+      "on_cycles": 5616,
+      "on_percent": 33.83132530120482,
+      "end_cycles": 7104377
+    },
+    {
+      "duty": 85,
+      "cycles": 16600,
+      "on_cycles": 5552,
+      "on_percent": 33.44578313253012,
+      "end_cycles": 7120977
+    },
+    {
+      "duty": 84,
+      "cycles": 16600,
+      "on_cycles": 5488,
+      "on_percent": 33.06024096385542,
+      "end_cycles": 7137577
+    },
+    {
+      "duty": 83,
+      "cycles": 16600,
+      "on_cycles": 5424,
+      "on_percent": 32.674698795180724,
+      "end_cycles": 7154177
+    },
+    {
+      "duty": 82,
+      "cycles": 16600,
+      "on_cycles": 5360,
+      "on_percent": 32.28915662650602,
+      "end_cycles": 7170777
+    },
+    {
+      "duty": 81,
+      "cycles": 16600,
+      "on_cycles": 5296,
+      "on_percent": 31.903614457831324,
+      "end_cycles": 7187377
+    },
+    {
+      "duty": 80,
+      "cycles": 16600,
+      "on_cycles": 5232,
+      "on_percent": 31.518072289156628,
+      "end_cycles": 7203977
+    },
+    {
+      "duty": 79,
+      "cycles": 16600,
+      "on_cycles": 5168,
+      "on_percent": 31.132530120481928,
+      "end_cycles": 7220577
+    },
+    {
+      "duty": 78,
+      "cycles": 16600,
+      "on_cycles": 5104,
+      "on_percent": 30.746987951807228,
+      "end_cycles": 7237177
+    },
+    {
+      "duty": 77,
+      "cycles": 16600,
+      "on_cycles": 5040,
+      "on_percent": 30.36144578313253,
+      "end_cycles": 7253777
+    },
+    {
+      "duty": 76,
+      "cycles": 16600,
+      "on_cycles": 4976,
+      "on_percent": 29.97590361445783,
+      "end_cycles": 7270377
+    },
+    {
+      "duty": 75,
+      "cycles": 16600,
+      "on_cycles": 4912,
+      "on_percent": 29.59036144578313,
+      "end_cycles": 7286977
+    },
+    {
+      "duty": 74,
+      "cycles": 16600,
+      "on_cycles": 4848,
+      "on_percent": 29.204819277108435,
+      "end_cycles": 7303577
+    },
+    {
+      "duty": 73,
+      "cycles": 16600,
+      "on_cycles": 4784,
+      "on_percent": 28.819277108433734,
+      "end_cycles": 7320177
+    },
+    {
+      "duty": 72,
+      "cycles": 16600,
+      "on_cycles": 4720,
+      "on_percent": 28.433734939759034,
+      "end_cycles": 7336777
+    },
+    {
+      "duty": 71,
+      "cycles": 16600,
+      "on_cycles": 4656,
+      "on_percent": 28.048192771084338,
+      "end_cycles": 7353377
+    },
+    {
+      "duty": 70,
+      "cycles": 16600,
+      "on_cycles": 4592,
+      "on_percent": 27.662650602409638,
+      "end_cycles": 7369977
+    },
+    {
+      "duty": 69,
+      "cycles": 16600,
+      "on_cycles": 4528,
+      "on_percent": 27.27710843373494,
+      "end_cycles": 7386577
+    },
+    {
+      "duty": 68,
+      "cycles": 16600,
+      "on_cycles": 4464,
+      "on_percent": 26.89156626506024,
+      "end_cycles": 7403177
+    },
+    {
+      "duty": 67,
+      "cycles": 16600,
+      "on_cycles": 4400,
+      "on_percent": 26.50602409638554,
+      "end_cycles": 7419777
+    },
+    {
+      "duty": 66,
+      "cycles": 16600,
+      "on_cycles": 4336,
+      "on_percent": 26.120481927710845,
+      "end_cycles": 7436377
+    },
+    {
+      "duty": 65,
+      "cycles": 16600,
+      "on_cycles": 4272,
+      "on_percent": 25.734939759036145,
+      "end_cycles": 7452977
+    },
+    {
+      "duty": 64,
+      "cycles": 16600,
+      "on_cycles": 4208,
+      "on_percent": 25.349397590361445,
+      "end_cycles": 7469577
+    },
+    {
+      "duty": 63,
+      "cycles": 16600,
+      "on_cycles": 4144,
+      "on_percent": 24.96385542168675,
+      "end_cycles": 7486177
+    },
+    {
+      "duty": 62,
+      "cycles": 16600,
+      "on_cycles": 4080,
+      "on_percent": 24.57831325301205,
+      "end_cycles": 7502777
+    },
+    {
+      "duty": 61,
+      "cycles": 16600,
+      "on_cycles": 4016,
+      "on_percent": 24.19277108433735,
+      "end_cycles": 7519377
+    },
+    {
+      "duty": 60,
+      "cycles": 16600,
+      "on_cycles": 3952,
+      "on_percent": 23.80722891566265,
+      "end_cycles": 7535977
+    },
+    {
+      "duty": 59,
+      "cycles": 16600,
+      "on_cycles": 3888,
+      "on_percent": 23.42168674698795,
+      "end_cycles": 7552577
+    },
+    {
+      "duty": 58,
+      "cycles": 16600,
+      "on_cycles": 3824,
+      "on_percent": 23.03614457831325,
+      "end_cycles": 7569177
+    },
+    {
+      "duty": 57,
+      "cycles": 16600,
+      "on_cycles": 3760,
+      "on_percent": 22.650602409638555,
+      "end_cycles": 7585777
+    },
+    {
+      "duty": 56,
+      "cycles": 16600,
+      "on_cycles": 3696,
+      "on_percent": 22.265060240963855,
+      "end_cycles": 7602377
+    },
+    {
+      "duty": 55,
+      "cycles": 16600,
+      "on_cycles": 3632,
+      "on_percent": 21.879518072289155,
+      "end_cycles": 7618977
+    },
+    {
+      "duty": 54,
+      "cycles": 16600,
+      "on_cycles": 3568,
+      "on_percent": 21.49397590361446,
+      "end_cycles": 7635577
+    },
+    {
+      "duty": 53,
+      "cycles": 16600,
+      "on_cycles": 3504,
+      "on_percent": 21.10843373493976,
+      "end_cycles": 7652177
+    },
+    {
+      "duty": 52,
+      "cycles": 16600,
+      "on_cycles": 3440,
+      "on_percent": 20.72289156626506,
+      "end_cycles": 7668777
+    },
+    {
+      "duty": 51,
+      "cycles": 16600,
+      "on_cycles": 3376,
+      "on_percent": 20.337349397590362,
+      "end_cycles": 7685377
+    },
+    {
+      "duty": 50,
+      "cycles": 16600,
+      "on_cycles": 3312,
+      "on_percent": 19.951807228915662,
+      "end_cycles": 7701977
+    },
+    {
+      "duty": 49,
+      "cycles": 16600,
+      "on_cycles": 3248,
+      "on_percent": 19.566265060240966,
+      "end_cycles": 7718577
+    },
+    {
+      "duty": 48,
+      "cycles": 16600,
+      "on_cycles": 3184,
+      "on_percent": 19.180722891566266,
+      "end_cycles": 7735177
+    },
+    {
+      "duty": 47,
+      "cycles": 16600,
+      "on_cycles": 3120,
+      "on_percent": 18.795180722891565,
+      "end_cycles": 7751777
+    },
+    {
+      "duty": 46,
+      "cycles": 16600,
+      "on_cycles": 3056,
+      "on_percent": 18.40963855421687,
+      "end_cycles": 7768377
+    },
+    {
+      "duty": 45,
+      "cycles": 16600,
+      "on_cycles": 2992,
+      "on_percent": 18.02409638554217,
+      "end_cycles": 7784977
+    },
+    {
+      "duty": 44,
+      "cycles": 16600,
+      "on_cycles": 2928,
+      "on_percent": 17.63855421686747,
+      "end_cycles": 7801577
+    },
+    {
+      "duty": 43,
+      "cycles": 16600,
+      "on_cycles": 2864,
+      "on_percent": 17.253012048192772,
+      "end_cycles": 7818177
+    },
+    {
+      "duty": 42,
+      "cycles": 16600,
+      "on_cycles": 2800,
+      "on_percent": 16.867469879518072,
+      "end_cycles": 7834777
+    },
+    {
+      "duty": 41,
+      "cycles": 16600,
+      "on_cycles": 2736,
+      "on_percent": 16.481927710843372,
+      "end_cycles": 7851377
+    },
+    {
+      "duty": 40,
+      "cycles": 16600,
+      "on_cycles": 2672,
+      "on_percent": 16.096385542168676,
+      "end_cycles": 7867977
+    },
+    {
+      "duty": 39,
+      "cycles": 16600,
+      "on_cycles": 2608,
+      "on_percent": 15.710843373493976,
+      "end_cycles": 7884577
+    },
+    {
+      "duty": 38,
+      "cycles": 16600,
+      "on_cycles": 2544,
+      "on_percent": 15.325301204819278,
+      "end_cycles": 7901177
+    },
+    {
+      "duty": 37,
+      "cycles": 16600,
+      "on_cycles": 2480,
+      "on_percent": 14.939759036144578,
+      "end_cycles": 7917777
+    },
+    {
+      "duty": 36,
+      "cycles": 16600,
+      "on_cycles": 2416,
+      "on_percent": 14.55421686746988,
+      "end_cycles": 7934377
+    },
+    {
+      "duty": 35,
+      "cycles": 16600,
+      "on_cycles": 2352,
+      "on_percent": 14.168674698795181,
+      "end_cycles": 7950977
+    },
+    {
+      "duty": 34,
+      "cycles": 16600,
+      "on_cycles": 2288,
+      "on_percent": 13.783132530120483,
+      "end_cycles": 7967577
+    },
+    {
+      "duty": 33,
+      "cycles": 16600,
+      "on_cycles": 2224,
+      "on_percent": 13.397590361445783,
+      "end_cycles": 7984177
+    },
+    {
+      "duty": 32,
+      "cycles": 16600,
+      "on_cycles": 2160,
+      "on_percent": 13.012048192771084,
+      "end_cycles": 8000777
+    },
+    {
+      "duty": 31,
+      "cycles": 16600,
+      "on_cycles": 2096,
+      "on_percent": 12.626506024096386,
+      "end_cycles": 8017377
+    },
+    {
+      "duty": 30,
+      "cycles": 16600,
+      "on_cycles": 2032,
+      "on_percent": 12.240963855421686,
+      "end_cycles": 8033977
+    },
+    {
+      "duty": 29,
+      "cycles": 16600,
+      "on_cycles": 1968,
+      "on_percent": 11.855421686746988,
+      "end_cycles": 8050577
+    },
+    {
+      "duty": 28,
+      "cycles": 16600,
+      "on_cycles": 1904,
+      "on_percent": 11.46987951807229,
+      "end_cycles": 8067177
+    },
+    {
+      "duty": 27,
+      "cycles": 16600,
+      "on_cycles": 1840,
+      "on_percent": 11.08433734939759,
+      "end_cycles": 8083777
+    },
+    {
+      "duty": 26,
+      "cycles": 16600,
+      "on_cycles": 1776,
+      "on_percent": 10.698795180722891,
+      "end_cycles": 8100377
+    },
+    {
+      "duty": 25,
+      "cycles": 16600,
+      "on_cycles": 1712,
+      "on_percent": 10.313253012048193,
+      "end_cycles": 8116977
+    },
+    {
+      "duty": 24,
+      "cycles": 16600,
+      "on_cycles": 1648,
+      "on_percent": 9.927710843373495,
+      "end_cycles": 8133577
+    },
+    {
+      "duty": 23,
+      "cycles": 16600,
+      "on_cycles": 1584,
+      "on_percent": 9.542168674698795,
+      "end_cycles": 8150177
+    },
+    {
+      "duty": 22,
+      "cycles": 16600,
+      "on_cycles": 1520,
+      "on_percent": 9.156626506024097,
+      "end_cycles": 8166777
+    },
+    {
+      "duty": 21,
+      "cycles": 16600,
+      "on_cycles": 1456,
+      "on_percent": 8.771084337349398,
+      "end_cycles": 8183377
+    },
+    {
+      "duty": 20,
+      "cycles": 16600,
+      "on_cycles": 1392,
+      "on_percent": 8.385542168674698,
+      "end_cycles": 8199977
+    },
+    {
+      "duty": 19,
+      "cycles": 16600,
+      "on_cycles": 1328,
+      "on_percent": 8.0,
+      "end_cycles": 8216577
+    },
+    {
+      "duty": 18,
+      "cycles": 16600,
+      "on_cycles": 1264,
+      "on_percent": 7.614457831325301,
+      "end_cycles": 8233177
+    },
+    {
+      "duty": 17,
+      "cycles": 16600,
+      "on_cycles": 1200,
+      "on_percent": 7.228915662650603,
+      "end_cycles": 8249777
+    },
+    {
+      "duty": 16,
+      "cycles": 16600,
+      "on_cycles": 1136,
+      "on_percent": 6.843373493975903,
+      "end_cycles": 8266377
+    },
+    {
+      "duty": 15,
+      "cycles": 16600,
+      "on_cycles": 1072,
+      "on_percent": 6.457831325301205,
+      "end_cycles": 8282977
+    },
+    {
+      "duty": 14,
+      "cycles": 16600,
+      "on_cycles": 1008,
+      "on_percent": 6.072289156626506,
+      "end_cycles": 8299577
+    },
+    {
+      "duty": 13,
+      "cycles": 16600,
+      "on_cycles": 944,
+      "on_percent": 5.686746987951807,
+      "end_cycles": 8316177
+    },
+    {
+      "duty": 12,
+      "cycles": 16600,
+      "on_cycles": 880,
+      "on_percent": 5.301204819277109,
+      "end_cycles": 8332777
+    },
+    {
+      "duty": 11,
+      "cycles": 16600,
+      "on_cycles": 816,
+      "on_percent": 4.9156626506024095,
+      "end_cycles": 8349377
+    },
+    {
+      "duty": 10,
+      "cycles": 16600,
+      "on_cycles": 752,
+      "on_percent": 4.530120481927711,
+      "end_cycles": 8365977
+    },
+    {
+      "duty": 9,
+      "cycles": 16600,
+      "on_cycles": 688,
+      "on_percent": 4.144578313253012,
+      "end_cycles": 8382577
+    },
+    {
+      "duty": 8,
+      "cycles": 16600,
+      "on_cycles": 624,
+      "on_percent": 3.7590361445783134,
+      "end_cycles": 8399177
+    },
+    {
+      "duty": 7,
+      "cycles": 16600,
+      "on_cycles": 560,
+      "on_percent": 3.3734939759036147,
+      "end_cycles": 8415777
+    },
+    {
+      "duty": 6,
+      "cycles": 16600,
+      "on_cycles": 496,
+      "on_percent": 2.9879518072289155,
+      "end_cycles": 8432377
+    },
+    {
+      "duty": 5,
+      "cycles": 16600,
+      "on_cycles": 432,
+      "on_percent": 2.602409638554217,
+      "end_cycles": 8448977
+    },
+    {
+      "duty": 4,
+      "cycles": 16600,
+      "on_cycles": 368,
+      "on_percent": 2.216867469879518,
+      "end_cycles": 8465577
+    },
+    {
+      "duty": 3,
+      "cycles": 16600,
+      "on_cycles": 304,
+      "on_percent": 1.8313253012048192,
+      "end_cycles": 8482177
+    },
+    {
+      "duty": 2,
+      "cycles": 16600,
+      "on_cycles": 240,
+      "on_percent": 1.4457831325301205,
+      "end_cycles": 8498777
+    },
+    {
+      "duty": 1,
+      "cycles": 16601,
+      "on_cycles": 176,
+      "on_percent": 1.060177097765195,
+      "end_cycles": 8515378
+    }
+  ],
+  "simulated_led_edge_count": 16256,
+  "simulated_pa0_edge_count": 16259,
+  "timing_note": "Predicted using HIRC 8MHz and 4 clocks/instruction cycle; not measured on target"
+}
